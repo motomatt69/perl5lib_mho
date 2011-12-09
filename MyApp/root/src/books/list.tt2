@@ -1,0 +1,16 @@
+[% META title = 'Book List' -%]
+
+<table>
+    <tr><th>Title</th><th>Rating</th><th>Author(s)</th></tr>
+    [% FOREACH book IN books -%]
+    <tr>
+        <td>[% book.title %]</td>
+        <td>[% book.rating %]</td>
+        <td>[% tt_authors = [];
+            tt_authors.push(author.last.name) FOREACH author = book.authors %]
+            ([% tt_authors.size | html %])
+            [% tt_authors.join(', ') | html %]
+        </td>
+    </tr>
+    [% END %]
+</table>
