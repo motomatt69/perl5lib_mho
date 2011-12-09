@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--generated at Mon Mar 23 10:49:48 2009
+ by FFXmlDoc converter by bocad Software GmbH 2004--><bocad-ps xsi:noNamespaceSchemaLocation="http://bocadp13.bocad.de/bocad-ps/Ps_ComplexData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <CREATOR CREATOR_PROGRAM="bocad-3D" CREATED="2009-03-23T10:49:48" USER_COMPANY="Wendeler Stahlbau GmbH &amp; Co." CREATOR_PROGRAM_VERSION="21.8450" CREATOR_COMPANY="bocad Software GmbH" USER="cad" INTERFACE_VERSION="1.0" />
+    <BOT_DB BOT_IDTYPE="PSDB_CATALOG" BOT_NAME="BOC3DB" >
+        <BOT_MEMBERLIST CREATIONDATE="2009-03-23T10:49:48" BOT_IDTYPE="CATT_JOINTS" BOT_NAME="TRANSPORTCATALOG" >
+            <BOT_MEMBER BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="DK5" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                    <BOT_STRING VALUE="DK5" BOT_NAME="DBNAME" />
+                    <BOT_STRING VALUE="Doppelkehlnaht" BOT_NAME="TYPE" />
+                    <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                    <BOT_STRING VALUE="A5.0" BOT_NAME="THICKNESS" />
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+            <BOT_MEMBER CREATIONDATE="2009-03-23T10:37:07" BOT_IDTYPE="CATT_FASTENERS" BOT_UUID="2_1Llgmy_" BOT_NAME="M16*60" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                    <BOT_STRING VALUE="0" BOT_NAME="INDEX" />
+                    <BOT_STRING VALUE="M16*60" BOT_NAME="NAME" />
+                    <BOT_STRING VALUE="10.9" BOT_NAME="GRADE" />
+                    <BOT_STRING VALUE="6914" BOT_NAME="NORM" />
+                    <BOT_DOUBLE VALUE="0.137" BOT_NAME="WEIGHT" />
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+            <BOT_MEMBER CREATIONDATE="2009-03-23T10:37:07" BOT_IDTYPE="CATT_FASTENERS" BOT_UUID="4_1Llgmy_" BOT_NAME="MU16" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                    <BOT_STRING VALUE="1004" BOT_NAME="INDEX" />
+                    <BOT_STRING VALUE="MU16" BOT_NAME="NAME" />
+                    <BOT_STRING VALUE="10" BOT_NAME="GRADE" />
+                    <BOT_STRING VALUE="GV" BOT_NAME="COATING" />
+                    <BOT_STRING VALUE="6915" BOT_NAME="NORM" />
+                    <BOT_DOUBLE VALUE="0.0448" BOT_NAME="WEIGHT" />
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+            <BOT_MEMBER CREATIONDATE="2009-03-23T10:37:07" BOT_IDTYPE="CATT_FASTENERS" BOT_UUID="3_1Llgmy_" BOT_NAME="SCHEIBE17" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                    <BOT_STRING VALUE="1001" BOT_NAME="INDEX" />
+                    <BOT_STRING VALUE="SCHEIBE17" BOT_NAME="NAME" />
+                    <BOT_STRING VALUE="St" BOT_NAME="GRADE" />
+                    <BOT_STRING VALUE="tZn" BOT_NAME="COATING" />
+                    <BOT_STRING VALUE="6916" BOT_NAME="NORM" />
+                    <BOT_DOUBLE VALUE="0.0146" BOT_NAME="WEIGHT" />
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+            <BOT_MEMBER BOT_IDSUBTYPE="201" BOT_IDTYPE="CATT_SET" BOT_UUID="5_1Llgmy_" BOT_NAME="SET" >
+                <BOT_DATETIME VALUE="2009-03-23T10:37:07" BOT_NAME="CREATIONDATE" />
+                <BOT_ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                    <BOT_STRING VALUE="M16*60" BOT_NAME="DBNAME" />
+                    <BOT_STRING VALUE="6914" BOT_NAME="NORM" />
+                    <BOT_STRING VALUE="10.9" BOT_NAME="GRADE" />
+                    <BOT_STRING VALUE="1000011010" BOT_NAME="STRUCTURE" />
+                    <BOT_REFERENCE BOT_NAME="REF_0" >
+                        <REFERENCE BOT_IDTYPE="CATT_FASTENERS" BOT_UUID="2_1Llgmy_" BOT_NAME="M16*60" />
+                    </BOT_REFERENCE>
+                    <BOT_REFERENCE BOT_NAME="REF_1" >
+                        <REFERENCE BOT_IDTYPE="CATT_FASTENERS" BOT_UUID="3_1Llgmy_" BOT_NAME="SCHEIBE17" />
+                    </BOT_REFERENCE>
+                    <BOT_REFERENCE BOT_NAME="REF_2" >
+                        <REFERENCE BOT_IDTYPE="CATT_FASTENERS" BOT_UUID="3_1Llgmy_" BOT_NAME="SCHEIBE17" />
+                    </BOT_REFERENCE>
+                    <BOT_REFERENCE BOT_NAME="REF_3" >
+                        <REFERENCE BOT_IDTYPE="CATT_FASTENERS" BOT_UUID="4_1Llgmy_" BOT_NAME="MU16" />
+                    </BOT_REFERENCE>
+                    <BOT_DOUBLE VALUE="0.211" BOT_NAME="WEIGHT" />
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+        </BOT_MEMBERLIST>
+    </BOT_DB>
+</bocad-ps>

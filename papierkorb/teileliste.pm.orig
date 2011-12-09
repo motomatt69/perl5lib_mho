@@ -1,0 +1,49 @@
+package RDK8FT::troop::teileliste;
+use strict;
+use File::Slurp;
+use DB::Promix;
+use RDK8FT::troop::Teile;
+   
+sub Teileliste_erstellen {
+    my ($class, $auf_id, $zng_id) = @_;
+    my (@Teile, $Bgr, $Zng, $Ind, $Anr, $Bez);
+
+        
+    my $pos = DB::Promix::aufpos->search(aup_auf_id  => $auf_id,
+                                         aup_zng_id  => $zng_id,
+                                         );
+    
+    while (my $aup = $pos->next) {
+    
+        $Anr = $aup->aup_zng_id->zng_auf_nr();    
+        $Zng = $aup->aup_zng_id->zng_nr();
+        $Zng =~ s/-/_/;                          #Bindestriche durch Unterstriche ersetzen
+        $Ind = $aup->aup_zng_id->zng_aenind;
+        if ($Ind =~ m!(\d)!) {
+            $Ind = '0'.$1                     #Führende Null voranstellen
+        }
+    
+        if ($aup->aup_stufe == 0) {
+            my $Typ = "bt";
+            my $Pos = $aup->aup_bez;
+            $Pos =~ m!8(\d+)\.\d+!;
+            $Bgr = $1;
+            $Pos =~ s/\.//;
+            $Bez = $aup->aup_art_nr;
+            print $Typ." ".$Pos." ".$Bez."\n";
+            my $HPos = RDK8FT::troop::Teile->new($Anr, $Typ, $Pos, $Bez, $Bgr, $Zng, $Ind );
+            $Teile[0] = $HPos;
+        }elsif ($aup->aup_stufe == 1) {
+            my $Typ = "abt";
+            my $Pos = $aup->aup_pos;
+            $Bez = $aup->aup_art_nr;
+            
+            print $Typ." ".$Pos." ".$Bez."\n";
+            my $NPos = RDK8FT::troop::Teile->new($Anr, $Typ, $Pos, $Bez, $Bgr, $Zng, $Ind);
+            push @Teile, $NPos;
+        }
+    }
+    return @Teile;
+}
+
+1;

@@ -1,0 +1,27 @@
+<personendaten>
+    <persona>
+        <name>Andres Ehmann</name>
+        <telefon>03047301388  </telefon>
+        <beruf>Diplom  Volkswirt / Magister Artium</beruf>
+        <adresse>Hallandstrasse 2, 13189 Berlin</adresse>
+    </persona>
+    <persona>
+        <name>Manuel Landivar</name>
+        <telefon>03045654566</telefon>
+        <beruf>Licenciado en letras</beruf>
+        <adresse>Schonhauser Allee 23, 13178 Berlin</adresse>
+    </persona>
+
+    <persona>
+        <name>Maria Sedlemayer</name>
+        <telefon>089 49499444</telefon>
+        <beruf>Rechtanwaeltin</beruf>
+        <adresse>Krumme Strasse 5, 456545 Muenchen</adresse>
+    </persona>
+    <persona>
+        <name>Suleika Isnegrim</name>
+        <telefon>07623 555844 </telefon>
+        <beruf>Zahnaerztin</beruf>
+        <adresse>Krozinger Strasse 12, 7867 Freiburg</adresse>
+    </persona>
+</personendaten>

@@ -1,0 +1,20 @@
+#!/usr/bin/perl -w
+use strict;
+use Tk;
+use PPEEMS::APB_STL_NC::apb_stl_mvc;
+
+my $p = $ARGV[0];
+
+my $mw = MainWindow->new(-title => 'APBDRAWING');
+
+if ($p){
+    my $mvc = PPEEMS::APB_STL_NC::apb_stl_mvc->new(pfad => $p);
+    $mvc->widgets($mw => [qw/view1/]);
+    $mvc->init();
+}
+else{
+    $mw->Label(-text => "Kein Pfad uebergeben!")->pack;
+}
+
+Tk::MainLoop();
+

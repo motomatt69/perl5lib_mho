@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--generated at Mon Mar 23 10:49:48 2009
+ by FFXmlDoc converter by bocad Software GmbH 2004--><bocad-ps xsi:noNamespaceSchemaLocation="http://bocadp13.bocad.de/bocad-ps/Ps_ComplexData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <CREATOR CREATOR_PROGRAM="bocad-3D" CREATED="2009-03-23T10:49:48" USER_COMPANY="Wendeler Stahlbau GmbH &amp; Co." CREATOR_PROGRAM_VERSION="21.8450" CREATOR_COMPANY="bocad Software GmbH" USER="cad" INTERFACE_VERSION="1.1" />
+    <BOT_DB BOT_IDTYPE="PSDB_ORDER" BOT_UUID="1237800236" BOT_NAME="BOCAD_PSTEST" >
+        <BOT_MEMBERLIST CREATIONDATE="2009-03-23T10:49:48" BOT_IDTYPE="ORDT_MEMBERDES" BOT_NAME="MEMBERDES" >
+            <BOT_ATTRIBUTEMAP BOT_NAME="Defaults" >
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Commercialweight" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="FL" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="FR" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Flangethickness" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Height" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Length" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Radius1" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Radius2" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Realweight" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Rho" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="SL" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="SR" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Sawlength" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Surface" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Surfacepermeter" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Userweight" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Volume" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Webthickness" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Weight" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Weightpermeter" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Width" />
+                <BOT_INT VALUE="0" BOT_NAME="Calling" />
+                <BOT_INT VALUE="0" BOT_NAME="Kindofcut" />
+                <BOT_INT VALUE="1" BOT_NAME="Quantity" />
+                <BOT_STRING VALUE="" BOT_NAME="Comment" />
+                <BOT_STRING VALUE="" BOT_NAME="Cptyp" />
+                <BOT_STRING VALUE="" BOT_NAME="CustomIdent" />
+                <BOT_STRING VALUE="" BOT_NAME="Description" />
+                <BOT_STRING VALUE="" BOT_NAME="Electrogalvanize" />
+                <BOT_STRING VALUE="" BOT_NAME="Firstcoating" />
+                <BOT_STRING VALUE="" BOT_NAME="Firstprimer" />
+                <BOT_STRING VALUE="" BOT_NAME="Function" />
+                <BOT_STRING VALUE="" BOT_NAME="Ident" />
+                <BOT_STRING VALUE="" BOT_NAME="Materialname" />
+                <BOT_STRING VALUE="" BOT_NAME="Nesteddrawing" />
+                <BOT_STRING VALUE="" BOT_NAME="Profilname" />
+                <BOT_STRING VALUE="" BOT_NAME="Ptyp" />
+                <BOT_STRING VALUE="" BOT_NAME="Revision" />
+                <BOT_STRING VALUE="" BOT_NAME="Revisionindex" />
+                <BOT_STRING VALUE="" BOT_NAME="Secondcoating" />
+                <BOT_STRING VALUE="" BOT_NAME="Secondprimer" />
+            </BOT_ATTRIBUTEMAP>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:34:28" BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100102_DES" BOT_NAME="MEMDES_Pos_1001" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="24" BOT_NAME="Flangethickness" />
+                    <BOT_DOUBLE VALUE="400" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="13000" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="27" BOT_NAME="Radius1" />
+                    <BOT_DOUBLE VALUE="7.85" BOT_NAME="Rho" />
+                    <BOT_DOUBLE VALUE="25.09" BOT_NAME="Surfacepermeter" />
+                    <BOT_DOUBLE VALUE="1954.46" BOT_NAME="Realweight" />
+                    <BOT_DOUBLE VALUE="25.09" BOT_NAME="Surface" />
+                    <BOT_DOUBLE VALUE="155" BOT_NAME="Userweight" />
+                    <BOT_DOUBLE VALUE="248.976" BOT_NAME="Volume" />
+                    <BOT_DOUBLE VALUE="2015" BOT_NAME="Weight" />
+                    <BOT_DOUBLE VALUE="13.5" BOT_NAME="Webthickness" />
+                    <BOT_DOUBLE VALUE="300" BOT_NAME="Width" />
+                    <BOT_GEOMETRY BOT_NAME="GEOMETRY" >
+                        <LENGTH>13000.0</LENGTH>
+                        <DEPTH>300.0</DEPTH>
+                        <HEIGHT>400.0</HEIGHT>
+                        <GEOMETRICTYPE>BGT_LENGTH</GEOMETRICTYPE>
+                        <CROSSSECTION>
+                            <CONTOUR>
+                                <TYPE>BWT_OUTERCONTOUR</TYPE>
+                                <THICKNESS>13000.0</THICKNESS>
+                                <POINTS>
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="-200.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="-176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-6.8" ID2="1" Y="-176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-6.8" ID2="1" Y="176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="200.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="150.0" ID2="1" Y="200.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="150.0" ID2="1" Y="176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="6.8" ID2="1" Y="176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="6.8" ID2="1" Y="-176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="150.0" ID2="1" Y="-176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="150.0" ID2="1" Y="-200.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="-200.0" />
+                                </POINTS>
+                            </CONTOUR>
+                        </CROSSSECTION>
+                    </BOT_GEOMETRY>
+                    <BOT_STRING VALUE="Haupttraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="1001" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="S355J2" BOT_NAME="Materialname" />
+                    <BOT_STRING VALUE="HEB400" BOT_NAME="Profilname" />
+                    <BOT_STRING VALUE="1" BOT_NAME="Ptyp" />
+                    <BOT_STRING VALUE="HEB" BOT_NAME="Cptyp" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100102" BOT_NAME="MEMLOC_Pos_1001" />
+                </CHILDREN>
+            </BOT_MEMBER>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:35:16" BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100103_DES" BOT_NAME="MEMDES_Pos_1002" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="24" BOT_NAME="Flangethickness" />
+                    <BOT_DOUBLE VALUE="400" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="13000" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="27" BOT_NAME="Radius1" />
+                    <BOT_DOUBLE VALUE="7.85" BOT_NAME="Rho" />
+                    <BOT_DOUBLE VALUE="25.09" BOT_NAME="Surfacepermeter" />
+                    <BOT_DOUBLE VALUE="1954.46" BOT_NAME="Realweight" />
+                    <BOT_DOUBLE VALUE="25.09" BOT_NAME="Surface" />
+                    <BOT_DOUBLE VALUE="155" BOT_NAME="Userweight" />
+                    <BOT_DOUBLE VALUE="248.976" BOT_NAME="Volume" />
+                    <BOT_DOUBLE VALUE="2015" BOT_NAME="Weight" />
+                    <BOT_DOUBLE VALUE="13.5" BOT_NAME="Webthickness" />
+                    <BOT_DOUBLE VALUE="300" BOT_NAME="Width" />
+                    <BOT_GEOMETRY BOT_NAME="GEOMETRY" >
+                        <LENGTH>13000.0</LENGTH>
+                        <DEPTH>300.0</DEPTH>
+                        <HEIGHT>400.0</HEIGHT>
+                        <GEOMETRICTYPE>BGT_LENGTH</GEOMETRICTYPE>
+                        <CROSSSECTION>
+                            <CONTOUR>
+                                <TYPE>BWT_OUTERCONTOUR</TYPE>
+                                <THICKNESS>13000.0</THICKNESS>
+                                <POINTS>
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="-200.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="-176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-6.8" ID2="1" Y="-176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-6.8" ID2="1" Y="176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="200.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="150.0" ID2="1" Y="200.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="150.0" ID2="1" Y="176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="6.8" ID2="1" Y="176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="6.8" ID2="1" Y="-176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="150.0" ID2="1" Y="-176.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="150.0" ID2="1" Y="-200.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-150.0" ID2="1" Y="-200.0" />
+                                </POINTS>
+                            </CONTOUR>
+                        </CROSSSECTION>
+                    </BOT_GEOMETRY>
+                    <BOT_STRING VALUE="Haupttraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="1002" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="S355J2" BOT_NAME="Materialname" />
+                    <BOT_STRING VALUE="HEB400" BOT_NAME="Profilname" />
+                    <BOT_STRING VALUE="1" BOT_NAME="Ptyp" />
+                    <BOT_STRING VALUE="HEB" BOT_NAME="Cptyp" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100103" BOT_NAME="MEMLOC_Pos_1002" />
+                </CHILDREN>
+            </BOT_MEMBER>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:36:31" BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100121_DES" BOT_NAME="MEMDES_Pos_1004" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="8.5" BOT_NAME="Flangethickness" />
+                    <BOT_DOUBLE VALUE="200" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="7680" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="12" BOT_NAME="Radius1" />
+                    <BOT_DOUBLE VALUE="7.85" BOT_NAME="Rho" />
+                    <BOT_DOUBLE VALUE="5.89824" BOT_NAME="Surfacepermeter" />
+                    <BOT_DOUBLE VALUE="164.273" BOT_NAME="Realweight" />
+                    <BOT_DOUBLE VALUE="5.89824" BOT_NAME="Surface" />
+                    <BOT_DOUBLE VALUE="22.4" BOT_NAME="Userweight" />
+                    <BOT_DOUBLE VALUE="20.9265" BOT_NAME="Volume" />
+                    <BOT_DOUBLE VALUE="172.032" BOT_NAME="Weight" />
+                    <BOT_DOUBLE VALUE="5.6" BOT_NAME="Webthickness" />
+                    <BOT_DOUBLE VALUE="100" BOT_NAME="Width" />
+                    <BOT_GEOMETRY BOT_NAME="GEOMETRY" >
+                        <LENGTH>7680.0</LENGTH>
+                        <DEPTH>100.0</DEPTH>
+                        <HEIGHT>200.0</HEIGHT>
+                        <GEOMETRICTYPE>BGT_LENGTH</GEOMETRICTYPE>
+                        <CROSSSECTION>
+                            <CONTOUR>
+                                <TYPE>BWT_OUTERCONTOUR</TYPE>
+                                <THICKNESS>7680.0</THICKNESS>
+                                <POINTS>
+                                    <POINT ID1="BPID1_CONTOUR" X="-50.0" ID2="1" Y="-100.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-50.0" ID2="1" Y="-91.5" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-2.8" ID2="1" Y="-91.5" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-2.8" ID2="1" Y="91.5" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-50.0" ID2="1" Y="91.5" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-50.0" ID2="1" Y="100.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="50.0" ID2="1" Y="100.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="50.0" ID2="1" Y="91.5" />
+                                    <POINT ID1="BPID1_CONTOUR" X="2.8" ID2="1" Y="91.5" />
+                                    <POINT ID1="BPID1_CONTOUR" X="2.8" ID2="1" Y="-91.5" />
+                                    <POINT ID1="BPID1_CONTOUR" X="50.0" ID2="1" Y="-91.5" />
+                                    <POINT ID1="BPID1_CONTOUR" X="50.0" ID2="1" Y="-100.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-50.0" ID2="1" Y="-100.0" />
+                                </POINTS>
+                            </CONTOUR>
+                        </CROSSSECTION>
+                        <WORKVIEWS>
+                            <WORKVIEW>
+                                <VIEWSIDE>
+                                    <TYPE>BPV_FRONT</TYPE>
+                                </VIEWSIDE>
+                                <WORKLIST>
+                                    <WORK X="40.0" Y="50.5" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="40.0" Y="-49.5" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="140.0" Y="50.5" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="140.0" Y="-49.5" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="7540.0" Y="50.5" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="7540.0" Y="-49.5" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="7640.0" Y="50.5" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="7640.0" Y="-49.5" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                </WORKLIST>
+                            </WORKVIEW>
+                        </WORKVIEWS>
+                    </BOT_GEOMETRY>
+                    <BOT_STRING VALUE="Nebentraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="1004" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="S235JR" BOT_NAME="Materialname" />
+                    <BOT_STRING VALUE="IPE200" BOT_NAME="Profilname" />
+                    <BOT_STRING VALUE="1" BOT_NAME="Ptyp" />
+                    <BOT_STRING VALUE="IPE" BOT_NAME="Cptyp" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100121" BOT_NAME="MEMLOC_Pos_1004" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100142" BOT_NAME="MEMLOC_Pos_1004" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100159" BOT_NAME="MEMLOC_Pos_1004" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100176" BOT_NAME="MEMLOC_Pos_1004" />
+                </CHILDREN>
+            </BOT_MEMBER>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:37:06" BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="25" BOT_NAME="Flangethickness" />
+                    <BOT_DOUBLE VALUE="332.25" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="354.6" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="7.85" BOT_NAME="Rho" />
+                    <BOT_DOUBLE VALUE="0.253362" BOT_NAME="Surfacepermeter" />
+                    <BOT_DOUBLE VALUE="15.6412" BOT_NAME="Realweight" />
+                    <BOT_DOUBLE VALUE="0.253362" BOT_NAME="Surface" />
+                    <BOT_DOUBLE VALUE="44.1093" BOT_NAME="Userweight" />
+                    <BOT_DOUBLE VALUE="1.99251" BOT_NAME="Volume" />
+                    <BOT_DOUBLE VALUE="23.1214" BOT_NAME="Weight" />
+                    <BOT_DOUBLE VALUE="25" BOT_NAME="Webthickness" />
+                    <BOT_DOUBLE VALUE="25" BOT_NAME="Width" />
+                    <BOT_GEOMETRY BOT_NAME="GEOMETRY" >
+                        <LENGTH>354.6</LENGTH>
+                        <DEPTH>25.0</DEPTH>
+                        <HEIGHT>332.2</HEIGHT>
+                        <GEOMETRICTYPE>BGT_FACE</GEOMETRICTYPE>
+                        <WORKVIEWS>
+                            <WORKVIEW>
+                                <VIEWSIDE>
+                                    <TYPE>BPV_FRONT</TYPE>
+                                </VIEWSIDE>
+                                <WORKLIST>
+                                    <WORK X="29.0" Y="126.1" ID5="2" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="29.0" Y="26.1" ID5="2" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="129.0" Y="126.1" ID5="2" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="129.0" Y="26.1" ID5="2" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                </WORKLIST>
+                                <CONTOURLIST>
+                                    <CONTOUR>
+                                        <TYPE>BWT_OUTERCONTOUR</TYPE>
+                                        <THICKNESS>25.0</THICKNESS>
+                                        <POINTS>
+                                            <POINT ID1="BPID1_RADIUSSTART" X="327.5" ID2="1" Y="-166.1" />
+                                            <POINT ID1="BPID1_CENTER" X="327.6" ID2="2" Y="-139.1" R="27.0" />
+                                            <POINT ID1="BPID1_RADIUSEND" X="354.6" ID2="1" Y="-139.1" />
+                                            <POINT ID1="BPID1_CONTOUR" X="354.6" ID2="1" Y="-23.9" />
+                                            <POINT ID1="BPID1_RADIUSSTART" X="164.0" ID2="1" Y="-23.9" />
+                                            <POINT ID1="BPID1_CENTER" X="164.0" ID2="2" Y="-18.9" R="-5.0" />
+                                            <POINT ID1="BPID1_RADIUSEND" X="159.0" ID2="1" Y="-18.9" />
+                                            <POINT ID1="BPID1_CONTOUR" X="159.0" ID2="1" Y="166.1" />
+                                            <POINT ID1="BPID1_CONTOUR" X="0.0" ID2="1" Y="166.1" />
+                                            <POINT ID1="BPID1_CONTOUR" X="0.0" ID2="1" Y="-23.9" />
+                                            <POINT ID1="BPID1_CONTOUR" X="4.4" ID2="1" Y="-23.9" />
+                                            <POINT ID1="BPID1_RADIUSSTART" X="4.5" ID2="1" Y="-139.1" />
+                                            <POINT ID1="BPID1_CENTER" X="31.5" ID2="2" Y="-139.1" R="27.0" />
+                                            <POINT ID1="BPID1_RADIUSEND" X="31.5" ID2="1" Y="-166.1" />
+                                            <POINT ID1="BPID1_CONTOUR" X="327.5" ID2="1" Y="-166.1" />
+                                        </POINTS>
+                                    </CONTOUR>
+                                </CONTOURLIST>
+                            </WORKVIEW>
+                        </WORKVIEWS>
+                    </BOT_GEOMETRY>
+                    <BOT_INT VALUE="3" BOT_NAME="Kindofcut" />
+                    <BOT_STRING VALUE="SCHWERT" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="10001" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="S235JR" BOT_NAME="Materialname" />
+                    <BOT_STRING VALUE="BL25*332" BOT_NAME="Profilname" />
+                    <BOT_STRING VALUE="5" BOT_NAME="Ptyp" />
+                    <BOT_STRING VALUE="BL" BOT_NAME="Cptyp" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100126" BOT_NAME="MEMLOC_Pos_10001" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100136" BOT_NAME="MEMLOC_Pos_10001" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100145" BOT_NAME="MEMLOC_Pos_10001" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100153" BOT_NAME="MEMLOC_Pos_10001" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100162" BOT_NAME="MEMLOC_Pos_10001" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100170" BOT_NAME="MEMLOC_Pos_10001" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100179" BOT_NAME="MEMLOC_Pos_10001" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100187" BOT_NAME="MEMLOC_Pos_10001" />
+                </CHILDREN>
+            </BOT_MEMBER>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:38:48" BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100199_DES" BOT_NAME="MEMDES_Pos_1003" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="10.2" BOT_NAME="Flangethickness" />
+                    <BOT_DOUBLE VALUE="270" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="7680" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="15" BOT_NAME="Radius1" />
+                    <BOT_DOUBLE VALUE="7.85" BOT_NAME="Rho" />
+                    <BOT_DOUBLE VALUE="7.99488" BOT_NAME="Surfacepermeter" />
+                    <BOT_DOUBLE VALUE="265.349" BOT_NAME="Realweight" />
+                    <BOT_DOUBLE VALUE="7.99488" BOT_NAME="Surface" />
+                    <BOT_DOUBLE VALUE="36.1" BOT_NAME="Userweight" />
+                    <BOT_DOUBLE VALUE="33.8024" BOT_NAME="Volume" />
+                    <BOT_DOUBLE VALUE="277.248" BOT_NAME="Weight" />
+                    <BOT_DOUBLE VALUE="6.6" BOT_NAME="Webthickness" />
+                    <BOT_DOUBLE VALUE="135" BOT_NAME="Width" />
+                    <BOT_GEOMETRY BOT_NAME="GEOMETRY" >
+                        <LENGTH>7680.0</LENGTH>
+                        <DEPTH>135.0</DEPTH>
+                        <HEIGHT>270.0</HEIGHT>
+                        <GEOMETRICTYPE>BGT_LENGTH</GEOMETRICTYPE>
+                        <CROSSSECTION>
+                            <CONTOUR>
+                                <TYPE>BWT_OUTERCONTOUR</TYPE>
+                                <THICKNESS>7680.0</THICKNESS>
+                                <POINTS>
+                                    <POINT ID1="BPID1_CONTOUR" X="-67.5" ID2="1" Y="-135.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-67.5" ID2="1" Y="-124.8" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-3.3" ID2="1" Y="-124.8" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-3.3" ID2="1" Y="124.8" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-67.5" ID2="1" Y="124.8" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-67.5" ID2="1" Y="135.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="67.5" ID2="1" Y="135.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="67.5" ID2="1" Y="124.8" />
+                                    <POINT ID1="BPID1_CONTOUR" X="3.3" ID2="1" Y="124.8" />
+                                    <POINT ID1="BPID1_CONTOUR" X="3.3" ID2="1" Y="-124.8" />
+                                    <POINT ID1="BPID1_CONTOUR" X="67.5" ID2="1" Y="-124.8" />
+                                    <POINT ID1="BPID1_CONTOUR" X="67.5" ID2="1" Y="-135.0" />
+                                    <POINT ID1="BPID1_CONTOUR" X="-67.5" ID2="1" Y="-135.0" />
+                                </POINTS>
+                            </CONTOUR>
+                        </CROSSSECTION>
+                        <WORKVIEWS>
+                            <WORKVIEW>
+                                <VIEWSIDE>
+                                    <TYPE>BPV_FRONT</TYPE>
+                                </VIEWSIDE>
+                                <WORKLIST>
+                                    <WORK X="40.0" Y="82.0" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="40.0" Y="-78.0" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="140.0" Y="82.0" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="140.0" Y="-78.0" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="7540.0" Y="82.0" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="7540.0" Y="-78.0" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="7640.0" Y="82.0" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="7640.0" Y="-78.0" ID5="3" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                </WORKLIST>
+                            </WORKVIEW>
+                        </WORKVIEWS>
+                    </BOT_GEOMETRY>
+                    <BOT_STRING VALUE="Nebentraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="1003" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="S235JR" BOT_NAME="Materialname" />
+                    <BOT_STRING VALUE="IPE270" BOT_NAME="Profilname" />
+                    <BOT_STRING VALUE="1" BOT_NAME="Ptyp" />
+                    <BOT_STRING VALUE="IPE" BOT_NAME="Cptyp" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100199" BOT_NAME="MEMLOC_Pos_1003" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100221" BOT_NAME="MEMLOC_Pos_1003" />
+                </CHILDREN>
+            </BOT_MEMBER>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:39:55" BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100205_DES" BOT_NAME="MEMDES_Pos_10002" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="25" BOT_NAME="Flangethickness" />
+                    <BOT_DOUBLE VALUE="332.25" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="351.1" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="7.85" BOT_NAME="Rho" />
+                    <BOT_DOUBLE VALUE="0.250861" BOT_NAME="Surfacepermeter" />
+                    <BOT_DOUBLE VALUE="17.9455" BOT_NAME="Realweight" />
+                    <BOT_DOUBLE VALUE="0.250861" BOT_NAME="Surface" />
+                    <BOT_DOUBLE VALUE="51.1123" BOT_NAME="Userweight" />
+                    <BOT_DOUBLE VALUE="2.28606" BOT_NAME="Volume" />
+                    <BOT_DOUBLE VALUE="22.8931" BOT_NAME="Weight" />
+                    <BOT_DOUBLE VALUE="25" BOT_NAME="Webthickness" />
+                    <BOT_DOUBLE VALUE="25" BOT_NAME="Width" />
+                    <BOT_GEOMETRY BOT_NAME="GEOMETRY" >
+                        <LENGTH>351.1</LENGTH>
+                        <DEPTH>25.0</DEPTH>
+                        <HEIGHT>332.2</HEIGHT>
+                        <GEOMETRICTYPE>BGT_FACE</GEOMETRICTYPE>
+                        <WORKVIEWS>
+                            <WORKVIEW>
+                                <VIEWSIDE>
+                                    <TYPE>BPV_FRONT</TYPE>
+                                </VIEWSIDE>
+                                <WORKLIST>
+                                    <WORK X="29.0" Y="126.1" ID5="2" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="29.0" Y="26.1" ID5="2" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="189.0" Y="126.1" ID5="2" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                    <WORK X="189.0" Y="26.1" ID5="2" DIAMETER="17.0" TYPE="BWT_HOLE" />
+                                </WORKLIST>
+                                <CONTOURLIST>
+                                    <CONTOUR>
+                                        <TYPE>BWT_OUTERCONTOUR</TYPE>
+                                        <THICKNESS>25.0</THICKNESS>
+                                        <POINTS>
+                                            <POINT ID1="BPID1_RADIUSSTART" X="324.0" ID2="1" Y="-166.1" />
+                                            <POINT ID1="BPID1_CENTER" X="324.1" ID2="2" Y="-139.1" R="27.0" />
+                                            <POINT ID1="BPID1_RADIUSEND" X="351.1" ID2="1" Y="-139.1" />
+                                            <POINT ID1="BPID1_CONTOUR" X="351.1" ID2="1" Y="-23.9" />
+                                            <POINT ID1="BPID1_RADIUSSTART" X="225.8" ID2="1" Y="-23.9" />
+                                            <POINT ID1="BPID1_CENTER" X="225.8" ID2="2" Y="-18.9" R="-5.0" />
+                                            <POINT ID1="BPID1_RADIUSEND" X="220.8" ID2="1" Y="-18.9" />
+                                            <POINT ID1="BPID1_CONTOUR" X="220.8" ID2="1" Y="166.1" />
+                                            <POINT ID1="BPID1_CONTOUR" X="0.0" ID2="1" Y="166.1" />
+                                            <POINT ID1="BPID1_CONTOUR" X="0.0" ID2="1" Y="-23.9" />
+                                            <POINT ID1="BPID1_CONTOUR" X="0.9" ID2="1" Y="-23.9" />
+                                            <POINT ID1="BPID1_RADIUSSTART" X="1.0" ID2="1" Y="-139.1" />
+                                            <POINT ID1="BPID1_CENTER" X="28.0" ID2="2" Y="-139.1" R="27.0" />
+                                            <POINT ID1="BPID1_RADIUSEND" X="28.0" ID2="1" Y="-166.1" />
+                                            <POINT ID1="BPID1_CONTOUR" X="324.0" ID2="1" Y="-166.1" />
+                                        </POINTS>
+                                    </CONTOUR>
+                                </CONTOURLIST>
+                            </WORKVIEW>
+                        </WORKVIEWS>
+                    </BOT_GEOMETRY>
+                    <BOT_INT VALUE="3" BOT_NAME="Kindofcut" />
+                    <BOT_STRING VALUE="SCHWERT" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="10002" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="S235JR" BOT_NAME="Materialname" />
+                    <BOT_STRING VALUE="BL25*332" BOT_NAME="Profilname" />
+                    <BOT_STRING VALUE="5" BOT_NAME="Ptyp" />
+                    <BOT_STRING VALUE="BL" BOT_NAME="Cptyp" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100205" BOT_NAME="MEMLOC_Pos_10002" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100215" BOT_NAME="MEMLOC_Pos_10002" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100224" BOT_NAME="MEMLOC_Pos_10002" />
+                    <REFERENCE BOT_IDTYPE="ORDT_MEMBERLOC" BOT_UUID="UUID1237800236/100232" BOT_NAME="MEMLOC_Pos_10002" />
+                </CHILDREN>
+            </BOT_MEMBER>
+        </BOT_MEMBERLIST>
+    </BOT_DB>
+</bocad-ps>

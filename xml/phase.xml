@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--generated at Mon Mar 23 10:49:48 2009
+ by FFXmlDoc converter by bocad Software GmbH 2004--><bocad-ps xsi:noNamespaceSchemaLocation="http://bocadp13.bocad.de/bocad-ps/Ps_ComplexData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <CREATOR CREATOR_PROGRAM="bocad-3D" CREATED="2009-03-23T10:49:48" USER_COMPANY="Wendeler Stahlbau GmbH &amp; Co." CREATOR_PROGRAM_VERSION="21.8450" CREATOR_COMPANY="bocad Software GmbH" USER="cad" INTERFACE_VERSION="1.1" />
+    <BOT_DB BOT_IDTYPE="PSDB_ORDER" BOT_UUID="1237800236" BOT_NAME="BOCAD_PSTEST" >
+        <BOT_MEMBERLIST CREATIONDATE="2009-03-23T10:49:48" BOT_IDTYPE="ORDT_PHASE" BOT_NAME="PHASE" >
+            <BOT_ATTRIBUTEMAP BOT_NAME="Defaults" >
+                <BOT_DATETIME BOT_NAME="Deliverydate" />
+                <BOT_DATETIME BOT_NAME="Enddate" />
+                <BOT_DATETIME BOT_NAME="Startdate" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Commercialweight" />
+                <BOT_INT VALUE="1" BOT_NAME="Quantity" />
+                <BOT_STRING VALUE="" BOT_NAME="Comment" />
+                <BOT_STRING VALUE="" BOT_NAME="Description" />
+                <BOT_STRING VALUE="" BOT_NAME="Draftsman" />
+                <BOT_STRING VALUE="" BOT_NAME="Electrogalvanize" />
+                <BOT_STRING VALUE="" BOT_NAME="Firstcoating" />
+                <BOT_STRING VALUE="" BOT_NAME="Firstprimer" />
+                <BOT_STRING VALUE="" BOT_NAME="Ident" />
+                <BOT_STRING VALUE="" BOT_NAME="Revision" />
+                <BOT_STRING VALUE="" BOT_NAME="Secondcoating" />
+                <BOT_STRING VALUE="" BOT_NAME="Secondprimer" />
+            </BOT_ATTRIBUTEMAP>
+            <BOT_MEMBER BOT_IDTYPE="ORDT_PHASE" BOT_UUID="UUID1237800236/100238" BOT_NAME="PHASE__10001" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_STRING VALUE="Haupttraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="mho" BOT_NAME="Draftsman" />
+                    <BOT_STRING VALUE="10001" BOT_NAME="Ident" />
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+            <BOT_MEMBER BOT_IDTYPE="ORDT_PHASE" BOT_UUID="UUID1237800236/100239" BOT_NAME="PHASE__10002" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_STRING VALUE="Nebentraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="mho" BOT_NAME="Draftsman" />
+                    <BOT_STRING VALUE="10002" BOT_NAME="Ident" />
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+        </BOT_MEMBERLIST>
+    </BOT_DB>
+</bocad-ps>

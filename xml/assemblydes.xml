@@ -1,0 +1,1408 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--generated at Mon Mar 23 10:49:48 2009
+ by FFXmlDoc converter by bocad Software GmbH 2004--><bocad-ps xsi:noNamespaceSchemaLocation="http://bocadp13.bocad.de/bocad-ps/Ps_ComplexData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <CREATOR CREATOR_PROGRAM="bocad-3D" CREATED="2009-03-23T10:49:48" USER_COMPANY="Wendeler Stahlbau GmbH &amp; Co." CREATOR_PROGRAM_VERSION="21.8450" CREATOR_COMPANY="bocad Software GmbH" USER="cad" INTERFACE_VERSION="1.1" />
+    <BOT_DB BOT_IDTYPE="PSDB_ORDER" BOT_UUID="1237800236" BOT_NAME="BOCAD_PSTEST" >
+        <BOT_MEMBERLIST CREATIONDATE="2009-03-23T10:49:48" BOT_IDTYPE="ORDT_ASSEMBLYDES" BOT_NAME="ASSEMBLYDES" >
+            <BOT_ATTRIBUTEMAP BOT_NAME="Defaults" >
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Height" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Length" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Realweight" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Surface" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Userweight" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Weight" />
+                <BOT_DOUBLE VALUE="0" BOT_NAME="Width" />
+                <BOT_INT VALUE="1" BOT_NAME="Quantity" />
+                <BOT_STRING VALUE="" BOT_NAME="Comment" />
+                <BOT_STRING VALUE="" BOT_NAME="Description" />
+                <BOT_STRING VALUE="" BOT_NAME="Function" />
+                <BOT_STRING VALUE="" BOT_NAME="Ident" />
+                <BOT_STRING VALUE="" BOT_NAME="Mainprofilename" />
+                <BOT_STRING VALUE="" BOT_NAME="Mainmaterialname" />
+                <BOT_STRING VALUE="" BOT_NAME="Nesteddrawing" />
+                <BOT_STRING VALUE="" BOT_NAME="Revision" />
+                <BOT_STRING VALUE="" BOT_NAME="Revisionindex" />
+            </BOT_ATTRIBUTEMAP>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:34:28" BOT_IDTYPE="ORDT_ASSEMBLYDES" BOT_UUID="UUID_As1237800236/100102_DES" BOT_NAME="ASSDES_Pos_1001" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="400" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="13000" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="490" BOT_NAME="Width" />
+                    <BOT_STRING VALUE="Haupttraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="1001" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="HEB400" BOT_NAME="Mainprofilename" />
+                    <BOT_STRING VALUE="S355J2" BOT_NAME="Mainmaterialname" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_ASSEMBLYLOC" BOT_UUID="UUID_As1237800236/100102" BOT_NAME="ASSLOC_Pos_1001" />
+                </CHILDREN>
+                <ASSOCIATIONLIST>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100102_DES" BOT_NAME="MEMDES_Pos_1001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100205_DES" BOT_NAME="MEMDES_Pos_10002" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100205_DES" BOT_NAME="MEMDES_Pos_10002" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-162.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="-112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="-112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-162.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-187.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="-137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="-137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-187.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-148.000" Z="-20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="-148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="148.000" Z="-20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-148.000" Z="4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="-148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="148.000" Z="4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="162.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="162.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="187.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1634.700" ID2="2" Y="137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="187.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-162.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="-112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="-112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-162.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-187.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="-137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="-137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-187.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-148.000" Z="-20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="-148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="148.000" Z="-20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-148.000" Z="4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="-148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="148.000" Z="4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="162.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="162.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="187.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3234.700" ID2="2" Y="137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="187.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-162.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="-112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="-112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-162.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-187.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="-137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="-137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-187.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-148.000" Z="-20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="-148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="148.000" Z="-20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-148.000" Z="4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="-148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="148.000" Z="4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="162.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="162.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="187.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4834.700" ID2="2" Y="137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="187.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-162.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="-112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="-112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-162.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-187.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="-137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="-137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-187.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-148.000" Z="-20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="-148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="148.000" Z="-20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-148.000" Z="4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="-148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="148.000" Z="4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="162.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="162.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="187.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6434.700" ID2="2" Y="137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="187.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-162.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="-112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="-112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-162.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-187.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="-137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="-137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-187.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-148.000" Z="-20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="-148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="148.000" Z="-20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-148.000" Z="4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="-148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="148.000" Z="4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="162.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="162.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="187.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9700.867" ID2="2" Y="137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="187.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-162.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="-112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="-112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-162.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-187.600" Z="-150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="-137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="-137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-187.600" Z="-34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-148.000" Z="-20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="-148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="148.000" Z="-70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="148.000" Z="-20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-148.000" Z="4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="-148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="148.000" Z="-45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="148.000" Z="4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="162.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="112.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="112.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="162.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="187.600" Z="-34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="137.600" Z="-34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11367.533" ID2="2" Y="137.600" Z="-150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="187.600" Z="-150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                </ASSOCIATIONLIST>
+            </BOT_MEMBER>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:35:16" BOT_IDTYPE="ORDT_ASSEMBLYDES" BOT_UUID="UUID_As1237800236/100103_DES" BOT_NAME="ASSDES_Pos_1002" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="400" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="13000" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="490" BOT_NAME="Width" />
+                    <BOT_STRING VALUE="Haupttraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="1002" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="HEB400" BOT_NAME="Mainprofilename" />
+                    <BOT_STRING VALUE="S355J2" BOT_NAME="Mainmaterialname" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_ASSEMBLYLOC" BOT_UUID="UUID_As1237800236/100103" BOT_NAME="ASSLOC_Pos_1002" />
+                </CHILDREN>
+                <ASSOCIATIONLIST>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100103_DES" BOT_NAME="MEMDES_Pos_1002" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100126_DES" BOT_NAME="MEMDES_Pos_10001" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100205_DES" BOT_NAME="MEMDES_Pos_10002" />
+                    </ASSOCIATION>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100205_DES" BOT_NAME="MEMDES_Pos_10002" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-162.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="-112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="-112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-162.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-187.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="-137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="-137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-187.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-148.000" Z="20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="-148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="148.000" Z="20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="-148.000" Z="-4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="-148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="148.000" Z="-4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="162.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="162.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="187.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="1534.700" ID2="2" Y="137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="1584.700" ID2="1" Y="187.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-162.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="-112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="-112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-162.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-187.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="-137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="-137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-187.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-148.000" Z="20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="-148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="148.000" Z="20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="-148.000" Z="-4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="-148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="148.000" Z="-4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="162.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="162.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="187.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="3134.700" ID2="2" Y="137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="3184.700" ID2="1" Y="187.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-162.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="-112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="-112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-162.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-187.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="-137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="-137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-187.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-148.000" Z="20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="-148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="148.000" Z="20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="-148.000" Z="-4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="-148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="148.000" Z="-4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="162.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="162.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="187.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="4734.700" ID2="2" Y="137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="4784.700" ID2="1" Y="187.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-162.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="-112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="-112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-162.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-187.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="-137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="-137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-187.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-148.000" Z="20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="-148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="148.000" Z="20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="-148.000" Z="-4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="-148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="148.000" Z="-4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="162.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="162.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="187.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="6334.700" ID2="2" Y="137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="6384.700" ID2="1" Y="187.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-162.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="-112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="-112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-162.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-187.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="-137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="-137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-187.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-148.000" Z="20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="-148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="148.000" Z="20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="-148.000" Z="-4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="-148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="148.000" Z="-4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="162.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="162.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="187.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="9600.867" ID2="2" Y="137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="9650.867" ID2="1" Y="187.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-162.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="-112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="-112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-162.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-187.600" Z="150.000" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="-137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="-137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-187.600" Z="34.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-148.000" Z="20.250" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="-148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="148.000" Z="70.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="148.000" Z="20.250" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="-148.000" Z="-4.750" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="-148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="148.000" Z="45.250" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="148.000" Z="-4.750" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="296.0" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                    <ASSOCIATION BOT_IDTYPE="CATT_WELDINGS" >
+                        <ATTRIBUTEMAP BOT_NAME="ATTRIBUTES" >
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="162.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="112.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="112.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="162.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_CONTOURLIST BOT_IDTYPE="BWT_WELDING" BOT_NAME="WELDINGLINE" >
+                                <CONTOUR>
+                                    <TYPE>BWT_WELDING</TYPE>
+                                    <CONTOURTYPE>BCT_OUTLINE</CONTOURTYPE>
+                                    <THICKNESS>5.0</THICKNESS>
+                                    <POINTS>
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="187.600" Z="34.750" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="137.600" Z="34.750" ID4="9000" />
+                                        <POINT ID1="BPID1_WELDING" X="11267.533" ID2="2" Y="137.600" Z="150.000" ID4="9000" />
+                                        <POINT ID1="BPID1_CONTOUR" X="11317.533" ID2="1" Y="187.600" Z="150.000" />
+                                    </POINTS>
+                                </CONTOUR>
+                            </BOT_CONTOURLIST>
+                            <BOT_STRING VALUE="SCHWERT" BOT_NAME="COMMENT" />
+                            <BOT_STRING VALUE="115.2" BOT_NAME="LENGTH" />
+                            <BOT_STRING VALUE="DK5" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1912" BOT_NAME="DIN" />
+                        </ATTRIBUTEMAP>
+                        <REFERENCE BOT_IDTYPE="CATT_WELDINGS" BOT_UUID="1_1Llgmy_" BOT_NAME="WELDING" />
+                    </ASSOCIATION>
+                </ASSOCIATIONLIST>
+            </BOT_MEMBER>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:36:31" BOT_IDTYPE="ORDT_ASSEMBLYDES" BOT_UUID="UUID_As1237800236/100121_DES" BOT_NAME="ASSDES_Pos_1004" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="200" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="7680" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="100" BOT_NAME="Width" />
+                    <BOT_STRING VALUE="Nebentraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="1004" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="IPE200" BOT_NAME="Mainprofilename" />
+                    <BOT_STRING VALUE="S235JR" BOT_NAME="Mainmaterialname" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_ASSEMBLYLOC" BOT_UUID="UUID_As1237800236/100121" BOT_NAME="ASSLOC_Pos_1004" />
+                    <REFERENCE BOT_IDTYPE="ORDT_ASSEMBLYLOC" BOT_UUID="UUID_As1237800236/100142" BOT_NAME="ASSLOC_Pos_1004" />
+                    <REFERENCE BOT_IDTYPE="ORDT_ASSEMBLYLOC" BOT_UUID="UUID_As1237800236/100159" BOT_NAME="ASSLOC_Pos_1004" />
+                    <REFERENCE BOT_IDTYPE="ORDT_ASSEMBLYLOC" BOT_UUID="UUID_As1237800236/100176" BOT_NAME="ASSLOC_Pos_1004" />
+                </CHILDREN>
+                <ASSOCIATIONLIST>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100121_DES" BOT_NAME="MEMDES_Pos_1004" />
+                    </ASSOCIATION>
+                </ASSOCIATIONLIST>
+            </BOT_MEMBER>
+            <BOT_MEMBER MODIFICATIONDATE="2009-03-23T10:45:34" CREATIONDATE="2009-03-23T10:38:48" BOT_IDTYPE="ORDT_ASSEMBLYDES" BOT_UUID="UUID_As1237800236/100199_DES" BOT_NAME="ASSDES_Pos_1003" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_DOUBLE VALUE="270" BOT_NAME="Height" />
+                    <BOT_DOUBLE VALUE="7680" BOT_NAME="Length" />
+                    <BOT_DOUBLE VALUE="135" BOT_NAME="Width" />
+                    <BOT_STRING VALUE="Nebentraeger" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="0" BOT_NAME="Function" />
+                    <BOT_STRING VALUE="1003" BOT_NAME="Ident" />
+                    <BOT_STRING VALUE="IPE270" BOT_NAME="Mainprofilename" />
+                    <BOT_STRING VALUE="S235JR" BOT_NAME="Mainmaterialname" />
+                </BOT_ATTRIBUTEMAP>
+                <CHILDREN>
+                    <REFERENCE BOT_IDTYPE="ORDT_ASSEMBLYLOC" BOT_UUID="UUID_As1237800236/100199" BOT_NAME="ASSLOC_Pos_1003" />
+                    <REFERENCE BOT_IDTYPE="ORDT_ASSEMBLYLOC" BOT_UUID="UUID_As1237800236/100221" BOT_NAME="ASSLOC_Pos_1003" />
+                </CHILDREN>
+                <ASSOCIATIONLIST>
+                    <ASSOCIATION>
+                        <REFERENCE BOT_IDTYPE="ORDT_MEMBERDES" BOT_UUID="UUID1237800236/100199_DES" BOT_NAME="MEMDES_Pos_1003" />
+                    </ASSOCIATION>
+                </ASSOCIATIONLIST>
+            </BOT_MEMBER>
+        </BOT_MEMBERLIST>
+    </BOT_DB>
+</bocad-ps>

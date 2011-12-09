@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--generated at Mon Mar 23 10:49:48 2009
+ by FFXmlDoc converter by bocad Software GmbH 2004--><bocad-ps xsi:noNamespaceSchemaLocation="http://bocadp13.bocad.de/bocad-ps/Ps_ComplexData.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" >
+    <CREATOR CREATOR_PROGRAM="bocad-3D" CREATED="2009-03-23T10:49:48" USER_COMPANY="Wendeler Stahlbau GmbH &amp; Co." CREATOR_PROGRAM_VERSION="21.8450" CREATOR_COMPANY="bocad Software GmbH" USER="cad" INTERFACE_VERSION="1.1" />
+    <BOT_DB BOT_IDTYPE="PSDB_ORDER" BOT_UUID="1237800236" BOT_NAME="BOCAD_PSTEST" >
+        <BOT_MEMBERLIST CREATIONDATE="2009-03-23T10:49:48" BOT_IDTYPE="ORDT_ORDER" BOT_NAME="ORDER" >
+            <BOT_ATTRIBUTEMAP BOT_NAME="Defaults" >
+                <BOT_STRING VALUE="" BOT_NAME="Antirustcoat" />
+                <BOT_STRING VALUE="" BOT_NAME="Buildingsite" />
+                <BOT_STRING VALUE="" BOT_NAME="Comment1" />
+                <BOT_STRING VALUE="" BOT_NAME="Comment2" />
+                <BOT_STRING VALUE="" BOT_NAME="Comment3" />
+                <BOT_STRING VALUE="" BOT_NAME="Comment4" />
+                <BOT_STRING VALUE="" BOT_NAME="Contactperson" />
+                <BOT_STRING VALUE="" BOT_NAME="Customer" />
+                <BOT_STRING VALUE="" BOT_NAME="Deliverydate" />
+                <BOT_STRING VALUE="" BOT_NAME="Description" />
+                <BOT_STRING VALUE="" BOT_NAME="Ident" />
+                <BOT_STRING VALUE="" BOT_NAME="Projectmanager" />
+                <BOT_STRING VALUE="" BOT_NAME="Purchasedate" />
+                <BOT_STRING VALUE="" BOT_NAME="Secondcoat" />
+                <BOT_REFERENCE BOT_NAME="SPECIFICATIONCATALOG" />
+                <BOT_STRINGLIST BOT_NAME="CATALOGDBNAMES" />
+            </BOT_ATTRIBUTEMAP>
+            <BOT_MEMBER BOT_IDTYPE="ORDT_ORDER" BOT_UUID="1237800236/100003" BOT_NAME="bocad_pstest" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_STRING VALUE="irgendwo" BOT_NAME="Buildingsite" />
+                    <BOT_STRING VALUE="STAHLBAU WENDELER" BOT_NAME="Customer" />
+                    <BOT_STRING VALUE="bocadps_test" BOT_NAME="Description" />
+                    <BOT_STRING VALUE="bocad_pstest" BOT_NAME="Ident" />
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+            <BOT_MEMBER BOT_IDTYPE="ORDT_ORDER" BOT_NAME="GRID" >
+                <BOT_ATTRIBUTEMAP BOT_NAME="Attributes" >
+                    <BOT_STRUCTURE BOT_NAME="GRIDS" >
+                        <BOT_STRUCTURE BOT_NAME="GRID1" >
+                            <BOT_POSITIONVECTORMAP BOT_NAME="AXES" >
+                                <POSITIONVECTOR NAME="1" >
+                                    <TYPE>BPV_USERDEFINED</TYPE>
+                                    <BASE X="0.000" Y="0.000" Z="0.000" />
+                                    <X X="0.00000000" Y="1.00000000" Z="0.00000000" />
+                                    <Y X="0.00000000" Y="0.00000000" Z="1.00000000" />
+                                    <Z X="1.00000000" Y="0.00000000" Z="0.00000000" />
+                                </POSITIONVECTOR>
+                                <POSITIONVECTOR NAME="2" >
+                                    <TYPE>BPV_USERDEFINED</TYPE>
+                                    <BASE X="8000.000" Y="0.000" Z="0.000" />
+                                    <X X="0.00000000" Y="1.00000000" Z="0.00000000" />
+                                    <Y X="0.00000000" Y="0.00000000" Z="1.00000000" />
+                                    <Z X="1.00000000" Y="0.00000000" Z="0.00000000" />
+                                </POSITIONVECTOR>
+                                <POSITIONVECTOR NAME="3" >
+                                    <TYPE>BPV_USERDEFINED</TYPE>
+                                    <BASE X="13000.000" Y="0.000" Z="0.000" />
+                                    <X X="0.00000000" Y="1.00000000" Z="0.00000000" />
+                                    <Y X="0.00000000" Y="0.00000000" Z="1.00000000" />
+                                    <Z X="1.00000000" Y="0.00000000" Z="0.00000000" />
+                                </POSITIONVECTOR>
+                            </BOT_POSITIONVECTORMAP>
+                            <BOT_POSITIONVECTORMAP BOT_NAME="ROWS" >
+                                <POSITIONVECTOR NAME="A" >
+                                    <TYPE>BPV_USERDEFINED</TYPE>
+                                    <BASE X="13000.000" Y="0.000" Z="0.000" />
+                                    <X X="-1.00000000" Y="0.00000000" Z="0.00000000" />
+                                    <Y X="0.00000000" Y="0.00000000" Z="1.00000000" />
+                                    <Z X="0.00000000" Y="1.00000000" Z="0.00000000" />
+                                </POSITIONVECTOR>
+                                <POSITIONVECTOR NAME="B" >
+                                    <TYPE>BPV_USERDEFINED</TYPE>
+                                    <BASE X="13000.000" Y="8000.000" Z="0.000" />
+                                    <X X="-1.00000000" Y="0.00000000" Z="0.00000000" />
+                                    <Y X="0.00000000" Y="0.00000000" Z="1.00000000" />
+                                    <Z X="0.00000000" Y="1.00000000" Z="0.00000000" />
+                                </POSITIONVECTOR>
+                            </BOT_POSITIONVECTORMAP>
+                            <BOT_POSITIONVECTORMAP BOT_NAME="COLUMNS" >
+                                <POSITIONVECTOR NAME=" 0" >
+                                    <TYPE>BPV_USERDEFINED</TYPE>
+                                    <BASE X="0.000" Y="0.000" Z="0.000" />
+                                    <X X="1.00000000" Y="0.00000000" Z="0.00000000" />
+                                    <Y X="0.00000000" Y="1.00000000" Z="0.00000000" />
+                                    <Z X="0.00000000" Y="0.00000000" Z="1.00000000" />
+                                </POSITIONVECTOR>
+                                <POSITIONVECTOR NAME=" 5000" >
+                                    <TYPE>BPV_USERDEFINED</TYPE>
+                                    <BASE X="0.000" Y="0.000" Z="5000.000" />
+                                    <X X="1.00000000" Y="0.00000000" Z="0.00000000" />
+                                    <Y X="0.00000000" Y="1.00000000" Z="0.00000000" />
+                                    <Z X="0.00000000" Y="0.00000000" Z="1.00000000" />
+                                </POSITIONVECTOR>
+                            </BOT_POSITIONVECTORMAP>
+                            <BOT_STRING VALUE="1" BOT_NAME="IDENT" />
+                            <BOT_STRING VALUE="1, 2, 3" BOT_NAME="XNAMES" />
+                            <BOT_STRING VALUE="0.0, 8000.0, 13000.0" BOT_NAME="XVALUES" />
+                            <BOT_STRING VALUE="A, B" BOT_NAME="YNAMES" />
+                            <BOT_STRING VALUE="0.0, 8000.0" BOT_NAME="YVALUES" />
+                            <BOT_STRING VALUE="0,  5000" BOT_NAME="ZNAMES" />
+                            <BOT_STRING VALUE="0.0, 5000.0" BOT_NAME="ZVALUES" />
+                        </BOT_STRUCTURE>
+                    </BOT_STRUCTURE>
+                </BOT_ATTRIBUTEMAP>
+            </BOT_MEMBER>
+        </BOT_MEMBERLIST>
+    </BOT_DB>
+</bocad-ps>
