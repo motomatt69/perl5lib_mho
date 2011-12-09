@@ -1,0 +1,84 @@
+sub _apbzng_rev_vergleich{
+	my ($self) = @_;
+	
+	my %hposls = %{$self->{get_mod_hposls}};
+	
+	my (%apbznr_revs_new, %apbznrs_new);
+	for my $key_hp (sort keys %hposls){
+		my $rev = $hposls{$key_hp}->{revnr};
+		my @apbposs = @{$hposls{$key_hp}->{apbposs}};
+		for my $apos (@apbposs){
+			$apbznr_revs_new{$apos->[1].'_'.$rev} = $key_hp;
+			$apbznrs_new{$apos->[1]} += 1;
+		}
+	}
+	
+	my (%apbznr_revs_old, %apbznrs_old);
+	my @zng_old = @{$self->{get_zng_old}};
+	for my $i (0..$#zng_old){
+		my %teilzngs = %{$zng_old[$i]->{teilzngs}};
+		for my $key (sort keys %teilzngs){
+			my $rev = $teilzngs{$key}->{hpos}{revnr};
+			my @apbposs = @{$teilzngs{$key}{hpos}->{apbposs}};	
+			for my $apos (@apbposs){
+				$apbznr_revs_old{$apos->[1].'_'.$rev} = $teilzngs{$key}->{hpos}{path};
+				$apbznrs_old{$apos->[1]} += 1;
+			}
+		}
+	}
+	
+	my (@only_old, @only_new, @common);
+	foreach (keys %apbznr_revs_old){
+		push @only_old, $_ 	unless exists $apbznr_revs_new{$_};
+		push @common, $_ 	if exists $apbznr_revs_new{$_};
+	}
+	foreach (keys %apbznr_revs_new){
+		push @only_new, $_	unless exists $apbznr_revs_old{$_}
+	}
+	
+	my @doppelt_new = grep{$apbznrs_new{$_} > 1} keys %apbznrs_new;
+	my @doppelt_old = grep{$apbznrs_old{$_} > 1} keys %apbznrs_old;
+	
+	
+	my %check_aposznr;
+	if($only_old[0]){
+		$check_aposznr{old} = \@only_old;
+		$self->{get_changes}{sum} ++;
+	#	my ($apbznr, $rev) = 
+		
+		#$self->{get_changes}{aposznr}{$htzngbl} = \%check_aposznr;
+	};
+	if($only_new[0]){
+		$check_aposznr{new} = \@only_new;
+		$self->{get_changes}{sum} ++;
+		#$self->{get_changes}{aposznr}{$htzngbl} = \%check_aposznr;
+	};
+	if($common[0]){
+		$check_aposznr{com} = \@common;	
+	};
+	
+	if (@doppelt_new){
+		my %revs;
+		for my $i (@doppelt_new){
+			my $aznr = $doppelt_new[$i];
+			for my $key_hp (sort keys %hposls){
+				my $rev = $hposls{$key_hp}->{revnr};
+				my @apbposs = @{$hposls{$key_hp}->{apbposs}};
+				for my $apos (@apbposs){
+					if ($apos->[1] =~ m/$aznr/){
+					$revs{$key_hp} = $rev
+					}
+				}
+			}
+		}
+		
+		my $dummy;
+	}
+	
+	
+	
+	return
+}
+	
+	
+    

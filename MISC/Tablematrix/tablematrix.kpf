@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="C19AE61C-9F3B-4955-8CE5-DE2D8C303463" name="tablematrix" kpf_version="2">
+<preference-set id="">
+  <string id="import_dirname">C:\PERL_projekte\Tablematrix</string>
+</preference-set>
+<file url="tablematrix%20test.pl" id="96543E6B-F8CB-4A81-8779-0C8FC496057C" name="tablematrix test.pl">
+</file>
+<file url="tablematrix%20test1.pl" id="E98771C7-14AC-442A-BE49-CF0F6BBA2CA7" name="tablematrix test1.pl">
+</file>
+<file url="tablematrix%20test2.pl" id="127D50FB-A81F-4059-A790-FEDBEFF9B374" name="tablematrix test2.pl">
+</file>
+<ProjectRef url="tablematrix.kpf" id="1D576513-DD07-4591-A8B8-15727E64B258" name="tablematrix.kpf">
+</ProjectRef>
+</project>

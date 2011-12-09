@@ -1,0 +1,10 @@
+[% META title = "Welcome to the Address Book" %]
+
+<p>Here you will find all things Address.</p>
+
+From here, you can:
+<ul>
+<li><a href="[% Catalyst.uri_for('/person/list') %]">Look at all people</a></li>
+<li><a href="[% Catalyst.uri_for('/person/add') %]">Add a new person</a></li>
+</ul>
+

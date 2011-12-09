@@ -1,0 +1,249 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Slots.pm</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rev="made" href="mailto:" />
+</head>
+
+<body style="background-color: white">
+
+
+<!-- INDEX BEGIN -->
+<div name="index">
+<p><a name="__index__"></a></p>
+
+<ul>
+
+	<li><a href="#slots">Slots</a></li>
+	<ul>
+
+		<li><a href="#funktionen">Funktionen</a></li>
+		<li><a href="#anwendung">Anwendung</a></li>
+	</ul>
+
+</ul>
+
+<hr name="index" />
+</div>
+<!-- INDEX END -->
+
+<p>
+</p>
+<h1><a name="slots">Slots</a></h1>
+<p>Slots - Signale und Slots analog zu Qt</p>
+<p>
+</p>
+<h2><a name="funktionen">Funktionen</a></h2>
+<dl>
+<dt><strong><a name="signal" class="item">SIGNAL</a></strong>
+
+<dd>
+<pre>
+ <span class="variable">Aufruf</span>  <span class="operator">:</span> <span class="keyword">my</span> <span class="variable">$text</span> <span class="operator">=</span> <span class="variable">SIGNAL</span><span class="operator">;</span>
+ <span class="variable">Ergebnis</span><span class="operator">:</span> <span class="variable">Liefert</span> <span class="variable">den</span> <span class="variable">String</span> <span class="string">'SIGNAL'</span> <span class="variable">zurueck</span><span class="operator">.</span>
+</pre>
+</dd>
+<dd>
+<pre>
+ SIGNAL dient eigentlich nur dazu die Anfuehrungszeichen zu sparen.
+
+</pre>
+</dd>
+<dt><strong><a name="slot" class="item">SLOT</a></strong>
+
+<dd>
+<pre>
+ <span class="variable">Aufruf</span>  <span class="operator">:</span> <span class="keyword">my</span> <span class="variable">$text</span> <span class="operator">=</span> <span class="variable">SLOT</span><span class="operator">;</span>
+ <span class="variable">Ergebnis</span><span class="operator">:</span> <span class="variable">Liefert</span> <span class="variable">den</span> <span class="variable">String</span> <span class="string">'SLOT'</span> <span class="variable">zurueck</span><span class="operator">.</span>
+</pre>
+</dd>
+<dd>
+<pre>
+ SLOT dient eigentlich nur dazu die Anfuehrungszeichen zu sparen.
+
+</pre>
+</dd>
+<dt><strong><a name="provide" class="item">PROVIDE</a></strong>
+
+<dd>
+<pre>
+ <span class="variable">Aufruf</span>  <span class="operator">:</span> <span class="variable">PROVIDE</span> <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="operator">&lt;</span><span class="variable">Name</span><span class="operator">&gt;;</span>
+           <span class="variable">PROVIDE</span> <span class="variable">SLOT</span><span class="operator">,</span>   <span class="operator">&lt;</span><span class="variable">Name</span><span class="operator">&gt;,</span> <span class="operator">&amp;</span><span class="variable">irgendeine_funktion</span><span class="operator">;</span>
+ <span class="variable">Ergebnis</span><span class="operator">:</span> <span class="variable">keine</span> <span class="variable">Rueckgabe</span><span class="operator">.</span>
+</pre>
+</dd>
+<dd>
+<pre>
+ PROVIDE definiert ein Signal oder einen SLOT fuer die aufrufende Klasse.
+
+</pre>
+</dd>
+<dt><strong><a name="connect" class="item">CONNECT</a></strong>
+
+<dd>
+<pre>
+ <span class="variable">Aufruf</span>  <span class="operator">:</span> <span class="variable">CONNECT</span> <span class="variable">$obj1</span><span class="operator">,</span> <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="operator">&lt;</span><span class="variable">Name1</span><span class="operator">&gt;,</span> <span class="variable">$obj2</span><span class="operator">,</span> <span class="variable">SLOT</span><span class="operator">,</span>   <span class="operator">&lt;</span><span class="variable">Name2</span><span class="operator">&gt;;</span>
+         <span class="operator">:</span> <span class="variable">CONNECT</span> <span class="variable">$obj1</span><span class="operator">,</span> <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="operator">&lt;</span><span class="variable">Name1</span><span class="operator">&gt;,</span> <span class="variable">$obj2</span><span class="operator">,</span> <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="operator">&lt;</span><span class="variable">Name2</span><span class="operator">&gt;;</span>
+ <span class="variable">Ergebnis</span><span class="operator">:</span> <span class="variable">keine</span> <span class="variable">Rueckgabe</span><span class="operator">.</span>
+ 
+ <span class="variable">CONNECT</span> <span class="variable">verbindet</span> <span class="variable">ein</span> <span class="variable">Signal</span> <span class="variable">des</span> <span class="variable">Objekt</span> <span class="number">1</span> <span class="variable">mit</span> <span class="variable">einem</span> <span class="variable">Signal</span> <span class="variable">oder</span> <span class="variable">Slot</span>
+ <span class="variable">des</span> <span class="variable">Objekt</span> <span class="number">2.</span>
+</pre>
+</dd>
+<dt><strong><a name="disconnect" class="item">DISCONNECT</a></strong>
+
+<dd>
+<pre>
+ <span class="variable">Aufruf</span>  <span class="operator">:</span> <span class="variable">DISCONNECT</span> <span class="variable">$obj1</span><span class="operator">,</span> <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="operator">&lt;</span><span class="variable">Name1</span><span class="operator">&gt;,</span> <span class="variable">$obj2</span><span class="operator">,</span> <span class="variable">SLOT</span><span class="operator">,</span>   <span class="operator">&lt;</span><span class="variable">Name2</span><span class="operator">&gt;;</span>
+           <span class="variable">DISCONNECT</span> <span class="variable">$obj1</span><span class="operator">,</span> <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="operator">&lt;</span><span class="variable">Name1</span><span class="operator">&gt;,</span> <span class="variable">$obj2</span><span class="operator">,</span> <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="operator">&lt;</span><span class="variable">Name2</span><span class="operator">&gt;;</span>
+ <span class="variable">Ergebnis</span><span class="operator">:</span> <span class="variable">keine</span> <span class="variable">Rueckgabe</span><span class="operator">.</span>
+ 
+ <span class="variable">DISCONNECT</span> <span class="variable">loest</span> <span class="variable">eine</span> <span class="variable">mit</span> <span class="variable">CONNECT</span> <span class="variable">erstellte</span> <span class="variable">Verbindung</span><span class="operator">.</span>
+</pre>
+</dd>
+<dt><strong><a name="emit" class="item">EMIT</a></strong>
+
+<dd>
+<pre>
+ <span class="variable">Aufruf</span>  <span class="operator">:</span> <span class="variable">$obj</span><span class="operator">-&gt;</span><span class="variable">EMIT</span><span class="operator">(&lt;</span><span class="variable">Name</span><span class="operator">&gt;,</span> <span class="regex">?</span><span class="variable">@args</span><span class="regex">?</span><span class="operator">);</span>
+ <span class="variable">Ergebnis</span><span class="operator">:</span> <span class="variable">keine</span> <span class="variable">Rueckgabe</span><span class="operator">.</span>
+ 
+ <span class="variable">EMIT</span> <span class="variable">sendet</span> <span class="variable">das</span> <span class="variable">fuer</span> <span class="keyword">die</span> <span class="variable">Klasse</span> <span class="variable">des</span> <span class="variable">Objekts</span> <span class="variable">definierte</span> <span class="variable">Signal</span> <span class="operator">&lt;</span><span class="variable">Name</span><span class="operator">&gt;.</span>
+ <span class="variable">Optional</span> <span class="variable">koennen</span> <span class="variable">weitere</span> <span class="variable">Parameter</span> <span class="variable">uebergeben</span> <span class="variable">werden</span><span class="operator">.</span>
+ <span class="variable">Die</span> <span class="variable">ueber</span> <span class="variable">SLOT</span> <span class="variable">verbundene</span> <span class="variable">Funktion</span> <span class="variable">erhaelt</span> <span class="variable">folgende</span> <span class="variable">Argumente</span><span class="operator">:</span>
+ <span class="variable">@_</span> <span class="operator">=</span> <span class="operator">(</span><span class="variable">$slot_object</span><span class="operator">,</span> <span class="variable">@args</span><span class="operator">);</span>
+ 
+ <span class="variable">Da</span> <span class="variable">Signale</span> <span class="variable">nur</span> <span class="variable">in</span> <span class="variable">der</span> <span class="variable">objektorientieten</span> <span class="variable">Umgebung</span> <span class="variable">zum</span> <span class="variable">Einsatz</span> <span class="variable">kommen</span>
+ <span class="variable">enthaelt</span> <span class="variable">wohl</span> <span class="variable">jede</span> <span class="variable">Unterroutine</span> <span class="variable">einen</span> <span class="variable">Code</span> <span class="variable">wie</span> <span class="variable">diesen</span><span class="operator">:</span>
+ 
+ <span class="keyword">sub</span><span class="variable"> meine_slot_funktion </span><span class="operator">{</span>
+    <span class="keyword">my</span> <span class="operator">(</span><span class="variable">$self</span><span class="operator">,</span> <span class="variable">$arg1</span><span class="operator">,</span> <span class="variable">$arg2</span><span class="operator">,</span> <span class="operator">...)</span> <span class="operator">=</span> <span class="variable">@_</span><span class="operator">;</span>
+ <span class="operator">}</span>
+ 
+ <span class="variable">Daher</span> <span class="variable">ist</span> <span class="variable">es</span> <span class="variable">notwendig</span> <span class="variable">$slot_object</span> <span class="variable">zu</span> <span class="variable">uebergeben</span><span class="operator">.</span>
+</pre>
+</dd>
+</dl>
+<p>
+</p>
+<h2><a name="anwendung">Anwendung</a></h2>
+<pre>
+ Signale und Slots dienen dazu Objekte miteinander zu verbinden. Dazu
+ ist es nicht notwendig Kenntnis vom Code der jeweiligen Objekte zu
+ haben. Ein Beispiel:
+ 
+ Eine Anwendung wird getrennt in Tk-Oberflaeche und Rechenprogramm.
+
+</pre>
+<dl>
+<dt><strong><a name="herkoemmlich" class="item">Herkoemmlich</a></strong>
+
+<dd>
+<pre>
+ <span class="keyword">use</span> <span class="variable">Tk</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">GUI</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">CALC</span> <span class="string">qw(berechnung)</span><span class="operator">;</span>
+ 
+ <span class="keyword">my</span> <span class="variable">$mw</span> <span class="operator">=</span> <span class="variable">MainWindow</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">();</span>
+ 
+ <span class="keyword">my</span> <span class="variable">$gui</span> <span class="operator">=</span> <span class="variable">GUI</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">(</span><span class="string">-mainwindow</span> <span class="operator">=&gt;</span> <span class="variable">$mw</span><span class="operator">);</span>
+ <span class="keyword">my</span> <span class="variable">$ok_bt</span> <span class="operator">=</span> <span class="variable">$gui</span><span class="operator">-&gt;</span><span class="variable">get_calc_button_widget</span><span class="operator">();</span>
+ <span class="variable">$ok_bt</span><span class="operator">-&gt;</span><span class="variable">configure</span><span class="operator">(</span><span class="string">-command</span> <span class="operator">=&gt;</span> <span class="keyword">sub</span><span class="variable"> </span><span class="operator">{</span> <span class="variable">berechnung</span><span class="operator">(</span><span class="variable">$gui</span><span class="operator">-&gt;</span><span class="variable">get_parameter</span><span class="operator">());</span> <span class="operator">});</span>
+ 
+ <span class="variable">MainLoop</span><span class="operator">;</span>
+</pre>
+</dd>
+<dt><strong><a name="oder_mit_signalen_und_slots" class="item">oder mit Signalen und Slots</a></strong>
+
+<dd>
+<pre>
+ <span class="keyword">package</span> <span class="variable">GUI</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">Slots</span> <span class="string">qw(SIGNAL PROVIDE EMIT)</span><span class="operator">;</span>
+ 
+ <span class="variable">PROVIDE</span> <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="string">'CALC_BUTTON_PRESSED'</span><span class="operator">;</span>
+ <span class="operator">...</span>
+ <span class="variable">$ok_bt</span><span class="operator">-&gt;</span><span class="variable">configure</span><span class="operator">(</span><span class="string">-command</span> <span class="operator">=&gt;</span> <span class="keyword">sub</span><span class="variable"> </span><span class="operator">{</span> <span class="variable">$self</span><span class="operator">-&gt;</span><span class="variable">EMIT</span><span class="operator">(</span><span class="string">'CALC_BUTTON_PRESSED'</span><span class="operator">,</span> <span class="variable">@args</span><span class="operator">)</span> <span class="operator">});</span>
+ 
+ 
+ <span class="keyword">package</span> <span class="variable">CALC</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">Slots</span> <span class="string">qw(SLOT PROVIDE)</span><span class="operator">;</span>
+ 
+ <span class="variable">PROVIDE</span> <span class="variable">SLOT</span><span class="operator">,</span> <span class="string">'BERECHNUNG'</span><span class="operator">,</span> <span class="operator">&amp;</span><span class="variable">berechnung</span><span class="operator">;</span>
+ <span class="operator">...</span>
+ <span class="keyword">sub</span><span class="variable"> berechnung </span><span class="operator">{</span>
+    <span class="keyword">my</span> <span class="operator">(</span><span class="variable">$self</span><span class="operator">,</span> <span class="variable">@parameter</span><span class="operator">)</span> <span class="operator">=</span> <span class="variable">@_</span><span class="operator">;</span>
+    <span class="operator">...</span>
+ <span class="operator">}</span>
+ 
+ <span class="keyword">package</span> <span class="variable">main</span><span class="operator">;</span>
+ 
+ <span class="keyword">use</span> <span class="variable">Tk</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">GUI</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">CALC</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">Slots</span> <span class="string">qw(CONNECT)</span><span class="operator">;</span>
+ 
+ <span class="keyword">my</span> <span class="variable">$mw</span> <span class="operator">=</span> <span class="variable">MainWindow</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">();</span>
+ 
+ <span class="keyword">my</span> <span class="variable">$gui</span>  <span class="operator">=</span> <span class="variable">GUI</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">(</span><span class="string">-mainwindow</span> <span class="operator">=&gt;</span> <span class="variable">$mw</span><span class="operator">);</span>
+ <span class="keyword">my</span> <span class="variable">$calc</span> <span class="operator">=</span> <span class="variable">CALC</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">();</span>
+ 
+ <span class="variable">CONNECT</span> <span class="variable">$gui</span><span class="operator">,</span>  <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="string">'CALC_BUTTON_PRESSED'</span><span class="operator">,</span>
+         <span class="variable">$calc</span><span class="operator">,</span> <span class="variable">SLOT</span><span class="operator">,</span>   <span class="string">'BERECHNUNG'</span><span class="operator">;</span>
+         
+ <span class="variable">MainLoop</span><span class="operator">;</span>
+</pre>
+</dd>
+</dl>
+<pre>
+ <span class="variable">Der</span> <span class="variable">Vorteil</span> <span class="variable">bei</span> <span class="variable">der</span> <span class="variable">Verwendung</span> <span class="variable">von</span> <span class="variable">Signalen</span> <span class="variable">und</span> <span class="variable">Slots</span> <span class="variable">liegt</span> <span class="variable">darin</span><span class="operator">,</span>
+ <span class="variable">dass</span> <span class="variable">man</span> <span class="variable">eine</span> <span class="variable">definierte</span> <span class="variable">Schnittstelle</span> <span class="variable">zur</span> <span class="variable">Verfuegung</span> <span class="variable">stellen</span> <span class="variable">kann</span><span class="operator">,</span>
+ <span class="variable">ohne</span> <span class="variable">auf</span> <span class="variable">Interna</span> <span class="variable">der</span> <span class="variable">einzelne</span> <span class="variable">Module</span> <span class="variable">zuzugreifen</span><span class="operator">.</span> <span class="variable">Eine</span> <span class="variable">Bescheibung</span>
+ <span class="variable">der</span> <span class="variable">Schnittstelle</span> <span class="variable">kann</span> <span class="variable">wie</span> <span class="variable">folgt</span> <span class="variable">aussehen</span><span class="operator">:</span>
+ 
+ <span class="keyword">package</span> <span class="variable">GUI</span><span class="operator">:</span>
+ 
+ <span class="variable">Folgende</span> <span class="variable">Signale</span> <span class="variable">werden</span> <span class="variable">ausgeloest</span><span class="operator">:</span>
+ <span class="string">'CALC_BUTTON_PRESSED'</span>                  <span class="variable">Button</span> <span class="string">'Berechnung'</span> <span class="variable">gedrueckt</span>
+ <span class="string">'END_BUTTON_PRESSED'</span>                   <span class="variable">Button</span> <span class="string">'Beenden'</span> <span class="variable">gedrueckt</span>
+ 
+ 
+ <span class="keyword">package</span> <span class="variable">CALC</span><span class="operator">:</span>
+ 
+ <span class="variable">Folgende</span> <span class="variable">Slots</span> <span class="variable">sind</span> <span class="variable">definiert</span><span class="operator">:</span>
+ <span class="string">'BERECHNUNG'</span>                           <span class="variable">verweist</span> <span class="variable">auf</span> <span class="variable">$obj</span><span class="operator">-&gt;</span><span class="variable">berechnung</span>
+ 
+ 
+ <span class="variable">Eine</span> <span class="variable">neue</span> <span class="variable">Berechnungsmethode</span> <span class="variable">kann</span> <span class="variable">ohne</span> <span class="variable">weiteres</span> <span class="variable">getestet</span> <span class="variable">werden</span><span class="operator">.</span> <span class="variable">Dazu</span>
+ <span class="variable">muss</span> <span class="variable">das</span> <span class="variable">Hauptprogramm</span> <span class="variable">nur</span> <span class="variable">wenig</span> <span class="variable">veraendert</span> <span class="variable">werden</span><span class="operator">.</span>
+ 
+  <span class="keyword">package</span> <span class="variable">main</span><span class="operator">;</span>
+ 
+ <span class="keyword">use</span> <span class="variable">Tk</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">GUI</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">CALC</span><span class="operator">;</span>
+ <span class="keyword">use</span> <span class="variable">Slots</span> <span class="string">qw(CONNECT)</span><span class="operator">;</span>
+ 
+ <span class="keyword">my</span> <span class="variable">$mw</span> <span class="operator">=</span> <span class="variable">MainWindow</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">();</span>
+ 
+ <span class="keyword">my</span> <span class="variable">$gui</span>  <span class="operator">=</span> <span class="variable">GUI</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">(</span><span class="string">-mainwindow</span> <span class="operator">=&gt;</span> <span class="variable">$mw</span><span class="operator">);</span>
+ <span class="keyword">my</span> <span class="variable">$calc</span> <span class="operator">=</span> <span class="variable">CALC</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">();</span>
+ <span class="variable">CONNECT</span> <span class="variable">$gui</span><span class="operator">,</span>  <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="string">'CALC_BUTTON_PRESSED'</span><span class="operator">,</span>
+         <span class="variable">$calc</span><span class="operator">,</span> <span class="variable">SLOT</span><span class="operator">,</span>   <span class="string">'BERECHNUNG'</span><span class="operator">;</span>
+ 
+ <span class="comment"># Ab hier Test fuer alternative Berechnung</span>
+ <span class="keyword">use</span> <span class="variable">CALC_ALTERNATIV</span><span class="operator">;</span>
+ <span class="keyword">my</span> <span class="variable">$vari</span> <span class="operator">=</span> <span class="variable">CALC_ALTERNATIV</span><span class="operator">-&gt;</span><span class="variable">new</span><span class="operator">();</span>
+ <span class="variable">CONNECT</span> <span class="variable">$gui</span><span class="operator">,</span>  <span class="variable">SIGNAL</span><span class="operator">,</span> <span class="string">'CALC_BUTTON_PRESSED'</span><span class="operator">,</span>
+         <span class="variable">$vari</span><span class="operator">,</span> <span class="variable">SLOT</span><span class="operator">,</span>   <span class="string">'BERECHNUNG'</span><span class="operator">;</span>
+ <span class="comment"># Test Ende</span>
+ 
+ <span class="variable">MainLoop</span><span class="operator">;</span>
+</pre>
+<pre>
+ Jetzt werden beide Berechnungen durchgefuehrt.</pre>
+
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+[% META title = '404 Not Found' %]
+
+<p>We couldn't find the page you were looking for.  Maybe you'd like to
+<a href="[% Catalyst.uri_for('/') %]">go home</a> instead?</p>

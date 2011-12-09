@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="F41A306D-A507-421D-885C-7731E70D1FBA" name="SqlProject1.kpf" kpf_version="2">
+<preference-set id="">
+  <string id="import_dirname">C:\PERL_projekte\SqlProject1</string>
+</preference-set>
+<file url="connect_daten1.pl" id="3C3ECDA6-801A-4323-9E1C-28A9465A7F7A" name="connect_daten1.pl">
+</file>
+<file url="connect_mho.pl" id="0C999EDC-5D4B-4BE7-9E09-CAD61DB4C489" name="connect_mho.pl">
+</file>
+<file url="csv_einlesen.pl" id="B90FD5FF-D7EE-4B28-BB61-21C8AD4DB0F0" name="csv_einlesen.pl">
+<preference-set id="">
+  <string id="lastInvocation">default</string>
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="postparams"></string>
+  <string id="warnings">enabled</string>
+  <boolean id="use-console">0</boolean>
+  <string id="getparams"></string>
+  <string id="filename">C:\PERL_projekte\SqlProject1\csv_einlesen.pl</string>
+  <string id="executable-params"></string>
+  <boolean id="show-dialog">1</boolean>
+  <string id="request-method">GET</string>
+  <long id="debugger.io-port">9011</long>
+  <string id="params"></string>
+  <string id="mpostparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="documentRoot"></string>
+  <string id="cookieparams"></string>
+  <string id="userEnvironment"></string>
+  <boolean id="sim-cgi">0</boolean>
+  <string id="cwd"></string>
+  <string id="userCGIEnvironment"></string>
+</preference-set>
+</preference-set>
+</preference-set>
+</file>
+<ProjectRef url="SqlProject1.kpf" id="6AE4332A-359B-4CF3-8D5F-34E4D772E480" name="SqlProject1.kpf">
+</ProjectRef>
+<file url="sqltest_db_mho01.pl" id="B21C3935-3ADB-487E-B38B-8D8F02B5028F" name="sqltest_db_mho01.pl">
+<preference-set id="">
+  <string id="lastInvocation">default</string>
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="postparams"></string>
+  <string id="userEnvironment"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="getparams"></string>
+  <boolean id="use-console">0</boolean>
+  <string id="warnings">enabled</string>
+  <string id="mpostparams"></string>
+  <string id="filename">C:\PERL_projekte\SqlProject1\sqltest_db_mho01.pl</string>
+  <string id="request-method">GET</string>
+  <string id="params"></string>
+  <string id="userCGIEnvironment"></string>
+  <string id="executable-params"></string>
+  <string id="documentRoot"></string>
+  <string id="cookieparams"></string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="sim-cgi">0</boolean>
+  <string id="cwd"></string>
+  <long id="debugger.io-port">9011</long>
+</preference-set>
+</preference-set>
+</preference-set>
+</file>
+<file url="daten1.pm" id="0B4D437D-E816-41A0-8CDD-FE502FC06E23" name="daten1.pm">
+</file>
+</project>

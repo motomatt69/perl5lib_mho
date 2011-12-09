@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="F8C7CFCD-2426-4A41-BB71-8ABA394039C6" name="PerlProjekt1" kpf_version="2">
+<preference-set id="">
+  <string id="import_dirname">C:\PERL_projekte\PerlProject1</string>
+</preference-set>
+<file url="1_tk_test_16_taschenrechner.pl" id="6524A3FC-BB9F-4E18-872D-1F3606993749" name="1_tk_test_16_taschenrechner.pl">
+</file>
+<file url="1_zwischen.pl" id="0B304679-CCAE-49D2-B411-8325821C4FA0" name="1_zwischen.pl">
+</file>
+<file url="BestiaryTest.pl" id="041160EA-F8CA-43D8-80D5-CF20E72E2153" name="BestiaryTest.pl">
+<preference-set id="">
+  <string id="lastInvocation">default</string>
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="postparams"></string>
+  <string id="userEnvironment"></string>
+  <string id="getparams"></string>
+  <boolean id="use-console">0</boolean>
+  <string id="warnings">enabled</string>
+  <string id="executable-params"></string>
+  <string id="mpostparams"></string>
+  <boolean id="show-dialog">1</boolean>
+  <string id="request-method">GET</string>
+  <string id="params"></string>
+  <string id="userCGIEnvironment"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="documentRoot"></string>
+  <string id="cookieparams"></string>
+  <string id="filename">C:\PERL_projekte\PerlProject1\BestiaryTest.pl</string>
+  <boolean id="sim-cgi">0</boolean>
+  <string id="cwd"></string>
+  <long id="debugger.io-port">9011</long>
+</preference-set>
+</preference-set>
+</preference-set>
+</file>
+<file url="listbox.pl" id="A50D6C95-B3BA-41A7-B50B-EACA4BB280F8" name="listbox.pl">
+</file>
+<file url="listbox1.pl" id="8ABA1AE6-363C-410C-82B7-775452C6B218" name="listbox1.pl">
+</file>
+<file url="listbox2.pl" id="82E6F8A6-55EF-4865-81D5-20000F55FECA" name="listbox2.pl">
+<preference-set id="">
+  <string id="lastInvocation">default</string>
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="postparams"></string>
+  <string id="warnings">enabled</string>
+  <boolean id="use-console">0</boolean>
+  <string id="getparams"></string>
+  <string id="filename">C:\PERL_projekte\PerlProject1\listbox2.pl</string>
+  <string id="executable-params"></string>
+  <boolean id="show-dialog">1</boolean>
+  <string id="request-method">GET</string>
+  <long id="debugger.io-port">9011</long>
+  <string id="params"></string>
+  <string id="mpostparams"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="documentRoot"></string>
+  <string id="cookieparams"></string>
+  <string id="userEnvironment"></string>
+  <boolean id="sim-cgi">0</boolean>
+  <string id="cwd"></string>
+  <string id="userCGIEnvironment"></string>
+</preference-set>
+</preference-set>
+</preference-set>
+</file>
+<file url="listbox3.pl" id="65FB0AA7-3E02-4602-BA54-FD9B27FE4CAD" name="listbox3.pl">
+<preference-set id="">
+  <string id="lastInvocation">default</string>
+<preference-set id="Invocations">
+<preference-set id="default">
+  <string id="postparams"></string>
+  <string id="warnings">enabled</string>
+  <boolean id="show-dialog">1</boolean>
+  <boolean id="use-console">0</boolean>
+  <string id="getparams"></string>
+  <string id="mpostparams"></string>
+  <string id="filename">C:\PERL_projekte\PerlProject1\listbox3.pl</string>
+  <string id="request-method">GET</string>
+  <long id="debugger.io-port">9011</long>
+  <string id="params"></string>
+  <string id="userCGIEnvironment"></string>
+  <string id="posttype">application/x-www-form-urlencoded</string>
+  <string id="documentRoot"></string>
+  <string id="cookieparams"></string>
+  <string id="userEnvironment"></string>
+  <boolean id="sim-cgi">0</boolean>
+  <string id="cwd"></string>
+  <string id="executable-params"></string>
+</preference-set>
+</preference-set>
+</preference-set>
+</file>
+<file url="Modultest1.pl" id="4E413474-B194-4B48-BD35-1836E2A15BE5" name="Modultest1.pl">
+</file>
+<file url="optionmenu.pl" id="B7D3A5E9-F457-4F20-BCE9-570353A70A78" name="optionmenu.pl">
+</file>
+<file url="optionmenu1.pl" id="5EF37078-04D8-4873-A93C-51377C9C2686" name="optionmenu1.pl">
+</file>
+<ProjectRef url="PerlProjekt1.kpf" id="31469D5D-E12E-49D3-963F-ED1F5DC74E27" name="PerlProjekt1.kpf">
+</ProjectRef>
+<file url="subtemperatur.pl" id="6C7168A0-6F36-456B-8C4A-83CE4A95C526" name="subtemperatur.pl">
+</file>
+<file url="tk_test_11_label_button.pl" id="AD99D954-2786-489A-84C6-350B7B5C12D8" name="tk_test_11_label_button.pl">
+</file>
+<file url="tk_test_12_frame_chkbutton.pl" id="4E9E7829-4CCA-46B8-933D-8B03CF6E2D04" name="tk_test_12_frame_chkbutton.pl">
+</file>
+<file url="tk_test_16_scale.pl" id="10A672DD-E5A7-4A40-B802-A1DFDEF6ACB6" name="tk_test_16_scale.pl">
+</file>
+<file url="tk_test_16_taschenrechner.pl" id="B9808BC4-E174-4F69-A89F-2DFB20E37AC6" name="tk_test_16_taschenrechner.pl">
+</file>
+<file url="tk_test_17_ibmBeispiel.pl" id="581A159B-D8E4-4AC8-8888-85DB4D5A1629" name="tk_test_17_ibmBeispiel.pl">
+</file>
+<file url="topleveltest.pl" id="CE3F7670-140A-42E1-B194-1FF762CCFD17" name="topleveltest.pl">
+</file>
+<file url="verz1.pl" id="DCAB6294-DBCF-4FF3-8844-83DE798E1A5A" name="verz1.pl">
+</file>
+<file url="verz2.pl" id="7ADFBAA3-D862-45AC-8C64-F1CE1D8C2D15" name="verz2.pl">
+</file>
+<file url="verz3.pl" id="B5FCEAD3-3380-4C80-8EC5-33CDB701B849" name="verz3.pl">
+</file>
+<file url="zbuchstab1.pl" id="2087A9FA-A5DC-445B-BA27-ED36FDF55DD9" name="zbuchstab1.pl">
+</file>
+<file url="zwischen.pl" id="51679B41-8D14-4D3D-93F0-B32DE3A226D3" name="zwischen.pl">
+</file>
+<file url="1bis100.pl" id="A0B96F06-2D94-4B37-B180-BB003B31A958" name="1bis100.pl">
+</file>
+<file url="arrayshashesrefs.pl" id="0F64E236-F3F5-4516-950E-E409D0808F4F" name="arrayshashesrefs.pl">
+</file>
+<file url="arrayshashesrefs1.pl" id="7F134E5C-76DA-4AB7-861A-087D07FBA2E1" name="arrayshashesrefs1.pl">
+</file>
+<file url="autocadtest.pl" id="96356C2F-875D-4509-BD34-4946DD453EC2" name="autocadtest.pl">
+</file>
+<file url="autocadvba.txt" id="0C0BA428-4417-4597-850C-CA202FF0DDF2" name="autocadvba.txt">
+</file>
+</project>

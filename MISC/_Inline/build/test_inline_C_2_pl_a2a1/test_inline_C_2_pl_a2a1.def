@@ -1,0 +1,4 @@
+EXPORTS
+  boot_test_inline_C_2_pl_a2a1
+  _boot_test_inline_C_2_pl_a2a1 = boot_test_inline_C_2_pl_a2a1
+  

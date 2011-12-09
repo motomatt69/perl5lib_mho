@@ -1,0 +1,8 @@
+
+It looks like you don't have a C compiler on your PATH, so you will not be
+able to compile C or XS extension modules.  You can install GCC from the
+MinGW package using the Perl Package Manager by running:
+
+    ppm install MinGW
+
+Writing Makefile for test_inline_C_1_pl_05519

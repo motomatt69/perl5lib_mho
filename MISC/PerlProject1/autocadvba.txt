@@ -1,0 +1,97 @@
+Sub AutoCAD()
+  Dim ac As AcadApplication
+  Dim i As Integer, acPkt1#(0 To 2), acPkt2#(0 To 2), acPkt3#(0 To 2), acPkt4#(0 To 2), x As Integer
+  Dim points(0 To 14) As Double, PlineObj As AcadPolyline
+  Dim Pkt1X As Double, Pkt1Y As Double, Pkt2X As Double, Pkt2Y As Double
+  Dim Pkt3X As Double, Pkt3Y As Double, Pkt4X As Double, Pkt4Y As Double
+  Dim RBlechLänge As Double, RBlechBreite As Double, u As Integer, LängeErstesBlech As Double
+  Dim v As Integer
+  Set ac = New AcadApplication
+  ac.Visible = 1
+  
+  For u = 1000 To 1500 Step 250
+  RBlechLänge = 9999 / 1000
+  RBlechBreite = u / 1000
+  
+  
+  
+  Pkt1Y = 0
+  For i = 1 To 20
+  Pkt1X = u / 20
+  Pkt1Y = Pkt1Y - 2
+'Rohblech zeichnen
+  points(0) = Pkt1X: points(1) = Pkt1Y: points(2) = 0
+  points(3) = Pkt1X + RBlechLänge: points(4) = Pkt1Y: points(5) = 0
+  points(6) = Pkt1X + RBlechLänge: points(7) = Pkt1Y + RBlechBreite: points(8) = 0
+  points(9) = Pkt1X: points(10) = Pkt1Y + RBlechBreite: points(11) = 0
+  points(12) = Pkt1X: points(13) = Pkt1Y: points(14) = 0
+  Set PlineObj = ac.ActiveDocument.ModelSpace.AddPolyline(points)
+  PlineObj.Color = acRed
+
+  acPkt1(0) = Pkt1X: acPkt1(1) = Pkt1Y - 0.2: acPkt1(2) = 0#
+  ac.ActiveDocument.ModelSpace.AddText u & "RohblechNr " & i, acPkt1, 0.12
+'Koordinaten Einzelbleche
+  For x = 1 To ActiveSheet.UsedRange.Rows.Count
+    
+    If Cells(x, 11) = u & "Blech" & i Then
+    v = v + 1
+    
+    If v = 1 Then
+    LängeErstesBlech = Cells(x, 6) / 1000
+    Pkt1X = u / 20
+    Pkt1Y = Pkt1Y
+    Pkt2X = Pkt1X + Cells(x, 6) / 1000
+    Pkt2Y = Pkt1Y
+    Pkt3X = Pkt2X
+    Pkt3Y = Pkt1Y + Cells(x, 4) / 1000
+    Pkt4X = Pkt1X
+    Pkt4Y = Pkt3Y
+    ElseIf v > 1 Then
+    Pkt1X = u / 20 + LängeErstesBlech
+    Pkt1Y = Pkt1Y
+    Pkt2X = Pkt1X + Cells(x, 6) / 1000
+    Pkt2Y = Pkt1Y
+    Pkt3X = Pkt2X
+    Pkt3Y = Pkt1Y + Cells(x, 4) / 1000
+    Pkt4X = Pkt1X
+    Pkt4Y = Pkt3Y
+    LängeErstesBlech = LängeErstesBlech + Cells(x, 6) / 1000
+    End If
+'Rechteck zeichnen
+    points(0) = Pkt1X: points(1) = Pkt1Y: points(2) = 0
+    points(3) = Pkt2X: points(4) = Pkt2Y: points(5) = 0
+    points(6) = Pkt3X: points(7) = Pkt3Y: points(8) = 0
+    points(9) = Pkt4X: points(10) = Pkt4Y: points(11) = 0
+    points(12) = Pkt1X: points(13) = Pkt1Y: points(14) = 0
+    Set PlineObj = ac.ActiveDocument.ModelSpace.AddPolyline(points)
+    PlineObj.Color = acGreen
+
+'Rechteck beschriften
+
+    acPkt1(0) = (Pkt1X + Pkt2X) / 2: acPkt1(1) = Pkt4Y - 0.13: acPkt1(2) = 0#
+    acPkt2(0) = Pkt1X + 0.03: acPkt2(1) = (Pkt1Y + Pkt4Y) / 2: acPkt2(2) = 0#
+    acPkt3(0) = Pkt1X + 0.05: acPkt3(1) = Pkt1Y + 0.05: acPkt3(2) = 0#
+'        acPkt4(0) = Pkt1X: acPkt4(1) = Pkt1Y: acPkt4(2) = 0#
+'
+        With ac.ActiveDocument.ModelSpace
+
+            .AddPoint acPkt1
+            .AddPoint acPkt2
+            .AddText ActiveSheet.Cells(x, 6).Value, acPkt1, 0.1
+            .AddText ActiveSheet.Cells(x, 4).Value, acPkt2, 0.1
+            .AddText ActiveSheet.Cells(x, 1) & "/" & Cells(x, 2).Value, acPkt3, 0.15
+        End With
+        'ac.ActiveDocument.ModelSpace.AddPolyline (points)
+        
+''        .AddLine StartPoint:=acPkt1, EndPoint:=acPkt2
+'
+'
+'        '
+  
+  End If
+  Next x
+  v = 0
+Next i
+Next u
+  ac.ZoomExtents
+End Sub

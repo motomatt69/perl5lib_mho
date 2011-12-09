@@ -1,0 +1,33 @@
+[% META title = 'People' %]
+
+[% IF people.count > 0 %]
+<p>Here are people that I know about:</p>
+<ul>
+    [%WHILE (person = people.next) %]
+    <li>
+        [% person.name | html %]
+        <a href="[% Catalyst.uri_for("/address/add/$person.id") | html %]">Add address</a>
+        <a href="[% Catalyst.uri_for("/person/edit/$person.id") | html %]">Edit</a>
+        <a href="[% Catalyst.uri_for("/person/delete/$person.id") | html %]">Delete</a>
+        
+        [% SET addresses = person.addresses %]
+        <ul>
+            [% FOREACH address = addresses %]
+            <li>
+                <b>[% address.location | html %]</b>
+                <a href="[% Catalyst.uri_for("/address/edit/$address.id") | html %]">Edit</a>
+                <a href="[% Catalyst.uri_for("/address/delete/$address.id") | html %]">Delete</a>
+                <br />
+                <address>
+                    [% address.postal | html | html_line_break %]
+                </address>
+                Phone: [% address.phone | html %]<br />
+                Email: [% address.email | html %]<br />
+            </li>
+            [% END %]
+        </ul>
+        [% ELSE %]
+        <p>No people yet!</p>
+        [% END %]
+        <p><a href="[% Catalyst.uri_for("/person/add") | html %]">Add a new person...</a></p>
+ 
