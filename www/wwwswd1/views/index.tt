@@ -1,0 +1,13 @@
+<h2>It Works!</h2>
+
+<p>
+I'm in <code>C:\perl5lib_mho\www\wwwswd1/views/index.tt</code>
+</p>
+
+<a href="/testseite">create a post</a>
+<hr>
+<% FOR p IN data.keys.sort %>
+    
+    <h2>Zeit: <% p %> Titel:<% data.$p.title %></h2>
+    <h3><% data.$p.text %></h3>
+<% END %>

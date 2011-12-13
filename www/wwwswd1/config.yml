@@ -1,0 +1,7 @@
+layout: "main"
+logger: "file"
+appname: "wwwswd1"
+database:
+    json: c:\perl5lib_mho\www\wwwswd1\wwwswd1.json
+template: "template_toolkit"
+

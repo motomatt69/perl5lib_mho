@@ -1,0 +1,42 @@
+#tblNeedsScrolling{
+	border-spacing: 0;
+	border-collapse: collapse;
+	border: thin solid black;
+}
+
+#tablehead{
+	
+	background-color: #d3d3d3;
+}
+
+#tablehead caption{
+	color: #4682b4;
+}
+
+#tablebody{
+	border: thin solid black;
+}
+
+td.right{
+	text-align: right; 
+	background-color: #e0e0e0;
+}
+
+td.pos{
+	font-weight: bold;
+	background-color: #4682b4;
+}
+
+td.sum{
+	background-color: #e0e0e0;
+}
+
+td.ts{
+	background-color: #b8b8b8;
+}
+
+
+th, td{
+	padding: 5px 5px 5px 5px;
+}
+

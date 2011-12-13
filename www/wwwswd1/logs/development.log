@@ -1,0 +1,422 @@
+[4732]  core @0.000068> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4732]  core @0.048077> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4732]  core @0.000326> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732] debug @0.001653> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4732]  core @0.002199> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4732]  core @0.008683> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4732]  core @0.000521> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732]  core @0.018430> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2100]  core @0.000082> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[2100]  core @0.052773> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[2100]  core @0.000441> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2100] debug @0.002559> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2100]  core @0.004018> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2100]  core @0.008465> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2100]  core @0.000499> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2100]  core @0.025368> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4572]  core @0.000055> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4572]  core @0.049703> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4572]  core @0.000514> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4572] debug @0.002607> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4572]  core @0.003446> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4572]  core @0.008943> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4572]  core @0.000489> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4572]  core @0.017570> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4572]  core @0.000363> request: GET /page from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4572] debug @0.001859> [hit #3] trying to match `/page' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4572]  core @0.003079> [hit #3] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4572]  core @0.000472> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4572]  core @0.003433> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1596]  core @0.000045> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[1596]  core @0.034806> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[1596]  core @0.000406> request: GET /page from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1596] debug @0.001821> [hit #1] trying to match `/page' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1596]  core @0.017007> [hit #1] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1596]  core @0.000554> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1596]  core @0.002080> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3596]  core @0.000077> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3596]  core @0.050795> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3596]  core @0.000967> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3596] debug @0.003007> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3596]  core @0.004002> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3596]  core @0.008920> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3596]  core @0.000509> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3596]  core @0.023343> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3596]  core @0.000463> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3596] debug @0.003974> [hit #3] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3596] debug @0.004641> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3596]  core @0.005156> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3596]  core @0.008438> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3596]  core @0.000403> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3596]  core @0.001903> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2748]  core @0.000045> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[2748]  core @0.036314> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[2748]  core @0.000317> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2748] debug @0.001730> [hit #1] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2748] debug @0.002464> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2748]  core @0.002993> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2748]  core @0.010533> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2748]  core @0.000372> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2748]  core @0.016220> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2748]  core @0.000370> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2748]  core @0.004765> [hit #3] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2748]  core @0.000371> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2748]  core @0.002997> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2488]  core @0.000045> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[2488]  core @0.034717> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[2488]  core @0.000422> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2488]  core @0.017412> [hit #1] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2488]  core @0.000464> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2488]  core @0.002088> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2488]  core @0.000362> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2488] debug @0.001605> [hit #3] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2488] debug @0.002139> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2488]  core @0.002555> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2488]  core @0.006558> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2488]  core @0.000404> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2488]  core @0.001960> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1488]  core @0.000046> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[1488]  core @0.037712> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[1488]  core @0.000576> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1488] debug @0.002743> [hit #1] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1488] debug @0.003745> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1488]  core @0.004354> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[1488]  core @0.009133> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1488]  core @0.000378> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1488]  core @0.014584> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1488]  core @0.000408> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1488] debug @0.001699> [hit #3] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1488] debug @0.002247> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1488]  core @0.002659> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[1488]  core @0.005250> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1488]  core @0.000367> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1488]  core @0.002080> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4484]  core @0.000047> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4484]  core @0.034026> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4484]  core @0.000471> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4484] debug @0.003334> [hit #1] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4484] debug @0.004036> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4484]  core @0.004437> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4484]  core @0.007886> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4484]  core @0.000364> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4484]  core @0.016619> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4484]  core @0.000431> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4484]  core @0.002416> [hit #3] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4484]  core @0.000399> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4484]  core @0.002041> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[5068]  core @0.000045> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[5068]  core @0.035398> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[5068]  core @0.000307> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[5068]  core @0.018834> [hit #1] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[5068]  core @0.000373> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[5068]  core @0.002055> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[5068]  core @0.000423> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[5068] debug @0.004155> [hit #3] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[5068] debug @0.005008> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[5068]  core @0.005709> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[5068]  core @0.019004> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[5068]  core @0.000405> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[5068]  core @0.001877> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[5068]  core @0.000484> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[5068]  core @0.003083> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[5068]  core @0.000372> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[5068]  core @0.001918> [hit #6] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1500]  core @0.000044> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[1500]  core @0.032243> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[1500]  core @0.000322> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1500] debug @0.001729> [hit #1] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1500] debug @0.002450> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1500]  core @0.002994> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[1500]  core @0.005993> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1500]  core @0.000373> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1500]  core @0.021798> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1500]  core @0.000410> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1500] debug @0.002005> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1500]  core @0.002544> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[1500]  core @0.003855> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1500]  core @0.001000> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1500] debug @0.002410> [hit #4] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1500]  core @0.003053> [hit #4]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[1500]  core @0.009336> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1500]  core @0.000666> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1500] debug @0.002437> [hit #5] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1500]  core @0.003257> [hit #5]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[1500]  core @0.004877> [hit #5] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4620]  core @0.000062> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4620]  core @0.045736> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4848]  core @0.000078> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4848]  core @0.051764> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4848]  core @0.000348> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4848] debug @0.002076> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4848]  core @0.002702> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4848]  core @13.865793> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[5056]  core @0.000074> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[5056]  core @0.048765> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[5056]  core @0.000327> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[5056] debug @0.002127> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[5056]  core @0.002728> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[5056]  core @10.855620> [hit #1] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[5056]  core @0.000514> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[5056]  core @0.024458> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4568]  core @0.000077> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4568]  core @0.054021> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4568]  core @0.000296> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4568] debug @0.001996> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4568]  core @0.002588> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4568]  core @0.005370> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4568]  core @0.000423> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4568]  core @0.016252> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4568]  core @0.000444> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4568] debug @0.002036> [hit #3] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4568] debug @0.002853> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4568]  core @0.003524> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4568]  core @0.006659> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4568]  core @0.000517> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4568]  core @0.002527> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4568]  core @0.000469> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4568] debug @0.001995> [hit #5] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4568]  core @0.002581> [hit #5]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4568]  core @0.020361> [hit #5] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4568]  core @0.000421> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4568]  core @0.004296> [hit #6] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3188]  core @0.000045> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3188]  core @0.034106> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3188]  core @0.000308> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3188] debug @0.001990> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3188]  core @0.002574> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3188]  core @0.005385> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3188]  core @0.000543> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3188]  core @0.017765> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3188]  core @0.000372> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3188] debug @0.001694> [hit #3] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3188] debug @0.002356> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3188]  core @0.002854> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3188]  core @0.005481> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3188]  core @0.000371> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3188]  core @0.001709> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3188]  core @0.000483> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3188] debug @0.001771> [hit #5] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3188]  core @0.002354> [hit #5]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3952]  core @0.000072> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3952]  core @0.056547> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3952]  core @0.000338> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3952] debug @0.001956> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3952]  core @0.002551> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3952]  core @0.129660> [hit #1] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3952]  core @0.000409> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3952]  core @0.016777> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[432]  core @0.000045> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[432]  core @0.039495> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[432]  core @0.000339> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[432] debug @0.001718> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[432]  core @0.002322> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[432]  core @10.851620> [hit #1] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[432]  core @0.000453> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[432]  core @0.025266> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4720]  core @0.000073> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4720]  core @0.056360> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4720]  core @0.000355> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4720] debug @0.001769> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4720]  core @0.002433> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4720]  core @25.351450> [hit #1] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4720]  core @0.000376> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4720]  core @0.019521> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[432]  core @0.000075> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[432]  core @0.055592> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[432]  core @0.000329> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[432] debug @0.002137> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[432]  core @0.002790> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[432]  core @0.027398> [hit #1] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[432]  core @0.000376> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[432]  core @0.018154> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3252]  core @0.000070> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3252]  core @0.069886> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3252]  core @0.000369> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3252] debug @0.002118> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3252]  core @0.002736> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3252]  core @5.606321> [hit #1] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3252]  core @0.000620> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3252]  core @0.031420> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1484]  core @0.000058> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[1484]  core @0.067483> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[1484]  core @0.000322> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1484] debug @0.001675> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1484]  core @0.002225> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[1484]  core @34.775989> [hit #1] response: 302 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1484]  core @0.000578> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1484] debug @0.002873> [hit #2] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[1484]  core @0.004035> [hit #2]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[1484]  core @0.011485> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[1484]  core @0.000546> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[1484]  core @0.017552> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000075> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4676]  core @0.081141> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4676]  core @0.000330> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676] debug @0.001882> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4676]  core @0.002889> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4676]  core @0.006790> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000444> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676]  core @0.018860> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000371> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676] debug @0.001833> [hit #3] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4676] debug @0.002463> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4676]  core @0.002915> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4676]  core @0.005930> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000504> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676]  core @0.002523> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000422> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676] debug @0.001844> [hit #5] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4676]  core @0.002315> [hit #5]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4676]  core @0.067072> [hit #5] response: 302 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000370> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676] debug @0.001717> [hit #6] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4676]  core @0.002364> [hit #6]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4676]  core @0.005042> [hit #6] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000412> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676]  core @0.001880> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000371> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676] debug @0.001957> [hit #8] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4676] debug @0.002866> [hit #8] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4676]  core @0.003370> [hit #8]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4676]  core @0.010383> [hit #8] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000414> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676]  core @0.002010> [hit #9] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000000> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676] debug @0.002388> [hit #10] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4676]  core @0.002958> [hit #10]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4676]  core @0.041159> [hit #10] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4676]  core @0.000372> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4676]  core @0.001733> [hit #11] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3836]  core @0.000073> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3836]  core @0.075126> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3836]  core @0.000312> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3836] debug @0.002309> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3836]  core @0.003185> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3836]  core @0.058976> [hit #1] response: 302 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3836]  core @0.000376> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3836] debug @0.001792> [hit #2] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3836]  core @0.002356> [hit #2]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3836]  core @0.005758> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3836]  core @0.000410> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3836]  core @0.022291> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3836]  core @0.000378> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3836] debug @0.001973> [hit #4] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3836] debug @0.002529> [hit #4] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3836]  core @0.003011> [hit #4]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3836]  core @0.007434> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3836]  core @0.000380> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3836]  core @0.001798> [hit #5] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3836]  core @0.000369> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3836] debug @0.007958> [hit #6] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3836]  core @0.008811> [hit #6]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3836]  core @0.016777> [hit #6] response: 302 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3836]  core @0.000367> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3836] debug @0.001700> [hit #7] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3836]  core @0.002405> [hit #7]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3836]  core @0.006451> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3836]  core @0.000375> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3836]  core @0.001738> [hit #8] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2804]  core @0.000059> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[2804]  core @0.089386> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[2804]  core @0.000364> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2804] debug @0.007773> [hit #1] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2804] debug @0.008786> [hit #1] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2804]  core @0.009527> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2804]  core @0.013383> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2804]  core @0.000791> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2804]  core @0.018097> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2804]  core @0.000422> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2804] debug @0.005724> [hit #3] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2804]  core @0.009707> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2804]  core @0.073486> [hit #3] response: 302 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2804]  core @0.000374> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2804] debug @0.001894> [hit #4] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2804]  core @0.002506> [hit #4]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2804]  core @0.030299> [hit #4] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2804]  core @0.000407> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2804]  core @0.002007> [hit #5] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3768]  core @0.000061> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3768]  core @0.067114> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3768]  core @0.000354> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3768] debug @0.001732> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3768]  core @0.002382> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3768]  core @0.055639> [hit #1] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3768]  core @0.000454> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3768]  core @0.019454> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3164]  core @0.000068> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3164]  core @0.060373> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3164]  core @0.000418> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3164] debug @0.002351> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3164]  core @0.003331> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3164]  core @9.809561> [hit #1] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3164]  core @0.000459> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3164]  core @0.027799> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2624]  core @0.000073> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[2624]  core @0.092878> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[2624]  core @0.000365> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2624] debug @0.001852> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2624]  core @0.002614> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2624]  core @0.150569> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2624]  core @0.000425> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2624]  core @0.021335> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2624]  core @0.001000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2624] debug @0.002365> [hit #3] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2624]  core @0.002837> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2624]  core @0.025531> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2624]  core @0.000406> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2624]  core @0.004108> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2624]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2624] debug @0.001379> [hit #5] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2624]  core @0.001854> [hit #5]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2624]  core @0.016518> [hit #5] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2624]  core @0.000381> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2624]  core @0.001752> [hit #6] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2624]  core @0.000920> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2624] debug @0.002285> [hit #7] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2624]  core @0.002788> [hit #7]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2624]  core @0.013550> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2624]  core @0.000520> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2624]  core @0.002548> [hit #8] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000066> loading application wwwswd1 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3744]  core @0.097627> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3744]  core @0.005012> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744] debug @0.007182> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3744]  core @0.008508> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3744]  core @0.127598> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000377> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744]  core @0.015485> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000455> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744] debug @0.001973> [hit #3] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3744]  core @0.002686> [hit #3]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3744]  core @0.016644> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000370> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744]  core @0.002546> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.001000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744] debug @0.002468> [hit #5] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3744]  core @0.005838> [hit #5]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3744]  core @0.027935> [hit #5] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000432> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744]  core @0.002046> [hit #6] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744] debug @0.001513> [hit #7] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3744]  core @0.002109> [hit #7]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3744]  core @0.018099> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000492> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744]  core @0.001869> [hit #8] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000448> request: GET /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744] debug @0.005012> [hit #9] trying to match `/testseite' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3744] debug @0.005596> [hit #9] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3744]  core @0.006032> [hit #9]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3744]  core @0.011363> [hit #9] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000460> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744]  core @0.001948> [hit #10] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.001000> request: POST /testseite from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744] debug @0.002737> [hit #11] trying to match `/testseite' against /^\/testseite$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3744]  core @0.003353> [hit #11]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3744]  core @0.038441> [hit #11] response: 302 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000409> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744] debug @0.002265> [hit #12] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3744]  core @0.002893> [hit #12]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3744]  core @0.017298> [hit #12] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3744]  core @0.000380> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3744]  core @0.001898> [hit #13] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102

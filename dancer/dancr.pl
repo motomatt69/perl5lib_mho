@@ -1,6 +1,10 @@
 use DBI;
 use Dancer;
+use Template;
 
+set 'views' => 'c:\perl5lib_mho\dancer\dancr\views';
+set 'public' => 'c:\perl5lib_mho\dancer\dancr\public';
+set 'database' => 'c:\perl5lib_mho\dancer\dancr\dancr_db.sqlite';
 set 'session' => 'Simple';
 set 'template' => 'template_toolkit';
 set 'logger' => 'console';
@@ -8,15 +12,51 @@ set 'log' => 'debug';
 set 'show_errors' => 1;
 set 'access_log' => 1;
 set 'warnings' => 1;
-
 set 'username' => 'admin';
 set 'password' => 'password';
 
 layout 'main';
 
+my $flash;
+
+sub set_flash {
+	my $message = shift;
+
+	$flash = $message;
+}
+
+sub get_flash {
+
+	my $msg = $flash;
+	$flash = "";
+
+	return $msg;
+}
+
+sub connect_db{
+    my $dbh = DBI->connect("dbi:SQLite:dbname=".setting('database'))
+        or die $DBI::errstr;
+    
+    return $dbh;
+}
+
+sub init_db {
+    my $db = connect_db();
+    #my $schema = read_file('.schema.sql');
+    #$db->do($schema) or die $db->errstr;
+}
+
+before_template sub{
+    my $tokens = shift;
+    
+    $tokens->{'css_url'} = request->base . 'css/style.css';
+    $tokens->{'login_url'} = uri_for('/login');
+    $tokens->{'logout_url'} = uri_for('/logout');
+};
+
 get '/' => sub{
     my $dbh = connect_db();
-    my $sql = 'select id, title, text from entries order by id desc';
+    my $sql = 'SELECT id, title, text FROM entries ORDER BY id DESC';
     my $sth = $dbh->prepare($sql) or die $dbh->errstr;
     $sth->execute or die $sth->errstr;
     template 'show_entries.tt', {
@@ -62,6 +102,7 @@ any ['get', 'post'] => '/login' => sub{
     template 'login.tt', {
         'err' => $err,
     };
+
 };
 
 get '/logout' => sub{
@@ -70,22 +111,5 @@ get '/logout' => sub{
     redirect '/';
 };
 
-before_template sub{
-    my $tokens = shift;
-    
-    $tokens->{'css_url'} = request->base . 'css/style.css';
-    $tokens->{'login_url'} = uri_for('/login');
-    $tokens->{'logout_url'} = uri_for('/logout');
-};
-
-sub connect_db{
-    my $dbh = DBI->connect("dbi:SQLITE:dbname=".setting('c:\dummy\dancertest.sqlite')) or die $DBI::errstr;
-    
-    return $dbh;
-}
-
-sub init_db {
-    my $db = connect_db();
-    my $schema = read_file('.schema.sql');
-    $db->do($schema) or die $db->errstr;
-}
+init_db();
+start;

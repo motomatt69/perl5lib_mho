@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>SWD Startseite</title>
+    <link rel="stylesheet" type="text/css" href="/css/std.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/css/table.css" media="screen"/>
+    <link rel="stylesheet" type="text/css" href="/css/druck.css" media="print"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <script   
+        src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js">
+    </script>
+    <script
+        src="/js/table.js">
+    </script>
+</head>
+<body>
+<% PROCESS header.tt %>
+
+
+<% PROCESS nav.tt %>
+
+<div id="content">
+    <% content %>
+</div>
+
+
+
+<% PROCESS footer.tt %>
+</body>
+</html>

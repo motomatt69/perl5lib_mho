@@ -1,0 +1,62 @@
+#header {
+	display: none;
+}
+#navcontainer {
+	display: none;
+}
+
+#main {
+	
+}
+
+#footer {
+	display: none;
+}
+
+#tablehead{
+	border: thin solid black;
+	border-collapse: collapse;
+	background-color: #d3d3d3;
+}
+
+#tablehead caption{
+	color: #4682b4;
+}
+
+#tablebody{
+	border: thin solid black;
+	border-collapse: collapse;
+}
+
+td.right{
+	text-align: right; 
+	background-color: #e0e0e0;
+}
+
+td.pos{
+	font-weight: bold;
+	background-color: #4682b4;
+}
+
+td.sum{
+	background-color: #e0e0e0;
+}
+
+td.ts{
+	background-color: #b8b8b8;
+}
+
+
+th, td{
+	padding: 5px 5px 5px 5px;
+}
+
+
+h1{
+	color: #4682b4;
+}
+
+h3{
+	color: #FF0000;
+}
+

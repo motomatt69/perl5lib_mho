@@ -1,0 +1,12 @@
+[3956] debug @0.001187> [hit #1] trying to match `/hello/Bob' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001000> [hit #2] trying to match `/hello/Bob' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001074> [hit #3] trying to match `/favicon.ico' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001706> [hit #4] trying to match `/hello/' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001784> [hit #5] trying to match `/css/style.css' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001940> [hit #6] trying to match `/hello/bob' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001389> [hit #7] trying to match `/hello/Matthias' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.002000> [hit #8] trying to match `/hello/Matthias' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001049> [hit #9] trying to match `/favicon.ico' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001077> [hit #10] trying to match `/favicon.ico' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001254> [hit #11] trying to match `/favicon.ico' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3956] debug @0.001782> [hit #12] trying to match `/hello/chef' against /^\/hello\/([^\/]+)$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73

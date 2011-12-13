@@ -1,0 +1,127 @@
+/* begin some basic styling here                     */
+body {
+	background: #FFF;
+	color: #000;
+	font: normal normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 10px;
+	padding: 0
+}
+
+table, td, a {
+	color: #000;
+	font: normal normal 12px Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+
+
+h1 {
+	font: normal normal 18px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0 0 5px 0;
+	color: #4682b4;
+}
+
+h2 {
+	font: normal normal 16px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	margin: 0 0 5px 0;
+	color: #4682b4;
+}
+
+h3 {
+	font: normal normal 13px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	color: #008000;
+	margin: 0 0 15px 0
+}
+/* end basic styling                                 */
+
+#header {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #007e7e;
+	
+	background:	url(/images/swd_listenkopf_erste_seite.gif)
+			repeat-y
+			center
+	;
+	
+	padding: 0px 20px 20px 20px;
+	height: 100px;
+}
+#navcontainer {
+	border: thin solid #007e7e;
+	padding: 20px 20px 20px 20px;
+	width: 160px;
+	height: 842px;
+	float: left;
+}
+
+#navcontainer ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: verdana, arial, Helvetica, sans-serif;
+}
+
+#navcontainer li{
+	margin: 0;
+}
+
+#navcontainer a{
+	display: block;
+	padding: 5px 10px;
+	width: 140px;
+	color: #000;
+	background-color: #b8b8b8;
+	text-decoration: none;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-bottom: 1px solid #333;
+	border-right: 1px solid #333;
+	font-weight: bold;
+	font-size: .8em;
+	background-image: url(images/vertical06.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#navcontainer a:hover{
+	color: #000;
+	background-color: #4682b4;
+	text-decoration: none;
+	border-top: 1px solid #333;
+	border-left: 1px solid #333;
+	border-bottom: 1px solid #fff;
+	border-right: 1px solid #fff;
+	background-image: url(images/vertical06a.jpg);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+#navcontainer ul ul li {
+	margin: 0;
+}
+
+#navcontainer ul ul a{
+	display: block;
+	padding: 5px 5px 5px 30px;
+	width: 125px;
+	color: #000;
+	background-color: #e0e0e0;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+#navcontainer ul ul a:hover{
+	color: #000;
+	background-color: #4682b4;
+	text-decoration: none;
+}
+
+#content {
+	/*border: thin solid #007e7e;*/
+	margin: 10px 0px 10px 220px;
+	height: 842px;
+}
+#footer {
+	border-top: thin solid #007e7e;
+	padding: 0px 20px 20px 20px;
+	clear: left;
+}

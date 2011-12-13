@@ -1,0 +1,4 @@
+layout: "main"
+logger: "file"
+appname: "wwwswd2"
+template: "template_toolkit"

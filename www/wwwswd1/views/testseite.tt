@@ -1,0 +1,9 @@
+<h2>Bin auf der Testseite!</h2>
+<form method="post">
+    <input name="title" size=80"></input>
+    <br />
+    <textarea name="text" rows="10" cols="80">
+    </textarea>
+    <input type="submit"></input>   
+</form>
+

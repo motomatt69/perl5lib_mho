@@ -1,0 +1,374 @@
+[4268]  core @0.000069> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4268]  core @0.048633> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4268]  core @0.000309> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4268] debug @0.001652> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4268]  core @0.002284> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4268]  core @0.008028> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4268]  core @0.000406> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4268]  core @0.016080> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4140]  core @0.000070> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4140]  core @0.036646> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4140]  core @0.000387> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4140] debug @0.002095> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4140]  core @0.002768> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4140]  core @0.067124> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4140]  core @0.000373> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4140]  core @0.015530> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2668]  core @0.000058> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[2668]  core @0.061280> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[2668]  core @0.000401> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2668] debug @0.001841> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2668]  core @0.002396> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2668]  core @0.083979> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2668]  core @0.000371> request: GET /css/style.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2668]  core @0.018142> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000081> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3528]  core @0.047635> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3528]  core @0.000438> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.001955> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.002500> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3528]  core @0.090510> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000396> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.002340> [hit #2] trying to match `/css/std.css' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.020365> [hit #2] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000416> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.001979> [hit #3] trying to match `/css/table.css' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.003405> [hit #3] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000404> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.002391> [hit #4] trying to match `/css/druck.css' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.004301> [hit #4] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.001671> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.003638> [hit #5] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.005034> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000710> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.005098> [hit #6] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.006431> [hit #6] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.001001> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.013113> [hit #7] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.013710> [hit #7]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3528]  core @0.018096> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000400> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528]  core @0.003443> [hit #8] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000470> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528]  core @0.002816> [hit #9] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000381> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528]  core @0.002547> [hit #10] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000409> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.002025> [hit #11] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.003351> [hit #11] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3528]  core @0.000536> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3528] debug @0.002386> [hit #12] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3528]  core @0.003908> [hit #12] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3552]  core @0.000071> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3552]  core @0.049404> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3552]  core @0.000466> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3552] debug @0.003171> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3552]  core @0.005321> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3552]  core @0.114965> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3552]  core @0.001009> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3552]  core @0.026542> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3552]  core @0.000440> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3552]  core @0.002176> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3552]  core @0.000440> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3552]  core @0.005056> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3552]  core @0.000496> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3552] debug @0.002755> [hit #5] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3552]  core @0.005063> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3552]  core @0.000361> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3552] debug @0.002179> [hit #6] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3552]  core @0.003583> [hit #6] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[784]  core @0.000068> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[784]  core @0.048655> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[784]  core @0.000396> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[784] debug @0.002210> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[784]  core @0.002890> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[784]  core @0.095939> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[784]  core @0.000522> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[784]  core @0.017334> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[784]  core @0.000610> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[784]  core @0.004924> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[784]  core @0.001703> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[784]  core @0.003804> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[784]  core @0.000747> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[784] debug @0.002740> [hit #5] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[784]  core @0.004640> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[784]  core @0.000427> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[784] debug @0.002597> [hit #6] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[784]  core @0.004966> [hit #6] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[784]  core @0.000426> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[784]  core @0.003323> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3160]  core @0.000074> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[3160]  core @0.051430> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[3160]  core @0.000416> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3160] debug @0.001939> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3160]  core @0.002661> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[3160]  core @0.108276> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3160]  core @0.000439> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3160]  core @0.022209> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3160]  core @0.000418> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3160]  core @0.002513> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3160]  core @0.000522> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3160]  core @0.002378> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3160]  core @0.000513> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3160] debug @0.007012> [hit #5] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3160]  core @0.010888> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3160]  core @0.000426> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3160] debug @0.002242> [hit #6] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[3160]  core @0.004903> [hit #6] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[3160]  core @0.000574> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[3160]  core @0.002790> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4464]  core @0.000067> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4464]  core @0.076993> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4464]  core @0.000360> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4464] debug @0.001851> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4464]  core @0.002456> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4464]  core @0.086976> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4464]  core @0.001265> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4464]  core @0.029291> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4464]  core @0.000424> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4464]  core @0.002371> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4464]  core @0.000386> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4464]  core @0.002491> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4464]  core @0.008285> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4464] debug @0.014381> [hit #5] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4464]  core @0.019444> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4464]  core @0.000388> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4464]  core @0.006328> [hit #6] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4732]  core @0.000045> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4732]  core @0.049750> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4732]  core @0.000449> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732] debug @0.007604> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4732]  core @0.008997> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4732]  core @0.122989> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4732]  core @0.000512> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732]  core @0.023393> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4732]  core @0.000473> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732]  core @0.002068> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4732]  core @0.000536> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732]  core @0.001942> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4732]  core @0.000395> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732] debug @0.001693> [hit #5] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4732]  core @0.003163> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4732]  core @0.000481> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732] debug @0.002429> [hit #6] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4732]  core @0.005714> [hit #6] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4732]  core @0.000553> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4732]  core @0.003124> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4156]  core @0.000058> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[4156]  core @0.043756> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[4156]  core @0.000452> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4156] debug @0.002693> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4156]  core @0.003330> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[4156]  core @0.109516> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4156]  core @0.000495> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4156]  core @0.023916> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4156]  core @0.000453> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4156]  core @0.002809> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4156]  core @0.000388> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4156]  core @0.001777> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4156]  core @0.000531> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4156] debug @0.002374> [hit #5] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4156]  core @0.004252> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4156]  core @0.000522> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4156] debug @0.004071> [hit #6] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[4156]  core @0.007711> [hit #6] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[4156]  core @0.000518> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[4156]  core @0.002556> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000069> loading application wwwswd2 in C:/Perl64/site/lib/Dancer.pm l. 179
+[2288]  core @0.054038> loading Standalone handler in C:/Perl64/site/lib/Dancer/Handler.pm l. 29
+[2288]  core @0.004177> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.007397> [hit #1] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.008224> [hit #1]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.140974> [hit #1] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.001136> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.027491> [hit #2] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.002244> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.006061> [hit #3] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000450> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.004007> [hit #4] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000453> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002480> [hit #5] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.004809> [hit #5] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000461> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002323> [hit #6] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.004305> [hit #6] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.001840> [hit #7] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.002548> [hit #7]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.012526> [hit #7] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000489> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002702> [hit #8] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000459> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002509> [hit #9] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000409> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002202> [hit #10] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.003970> [hit #10] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000474> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002630> [hit #11] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000409> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.003078> [hit #12] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.005569> [hit #12] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000480> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002661> [hit #13] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.001412> [hit #14] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.001934> [hit #14]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.010392> [hit #14] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000799> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.004006> [hit #15] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000548> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002963> [hit #16] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000402> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002648> [hit #17] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000420> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.005898> [hit #18] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.007808> [hit #18] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000420> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002417> [hit #19] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.004083> [hit #19] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000372> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.001753> [hit #20] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002284> [hit #21] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.003118> [hit #21]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.010488> [hit #21] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000590> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.006630> [hit #22] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.007015> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.012355> [hit #23] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000429> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002479> [hit #24] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.001405> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.004622> [hit #25] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.006576> [hit #25] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000618> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002412> [hit #26] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.005624> [hit #26] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.001312> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.003639> [hit #27] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.004515> [hit #28] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.005848> [hit #28]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.014053> [hit #28] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000449> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.007048> [hit #29] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000515> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.004259> [hit #30] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000479> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002398> [hit #31] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000526> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.003640> [hit #32] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.006466> [hit #32] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000762> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.015903> [hit #33] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.019992> [hit #33] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000385> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002550> [hit #34] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000411> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002452> [hit #35] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.003185> [hit #35]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.013803> [hit #35] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000462> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002553> [hit #36] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000302> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.001624> [hit #37] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000445> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002236> [hit #38] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000327> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.001692> [hit #39] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.002995> [hit #39] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000480> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002588> [hit #40] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.004351> [hit #40] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000407> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002390> [hit #41] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.003260> [hit #42] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.004072> [hit #42]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.014379> [hit #42] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000619> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.003028> [hit #43] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000440> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002011> [hit #44] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000400> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.001963> [hit #45] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000353> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002571> [hit #46] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.005780> [hit #46] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000997> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.003092> [hit #47] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.004712> [hit #47] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000407> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002294> [hit #48] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002335> [hit #49] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.003085> [hit #49]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.015585> [hit #49] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.001092> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.005069> [hit #50] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000906> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002918> [hit #51] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.002752> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.004752> [hit #52] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000580> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.018347> [hit #53] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.020253> [hit #53] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000432> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.004025> [hit #54] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.001000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.003223> [hit #55] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.004097> [hit #55]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.023842> [hit #55] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000332> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002517> [hit #56] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000326> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.001826> [hit #57] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000427> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002306> [hit #58] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.002137> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.004120> [hit #59] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.006086> [hit #59] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000439> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002393> [hit #60] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.004237> [hit #60] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000437> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002445> [hit #61] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.001953> [hit #62] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.002619> [hit #62]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.013901> [hit #62] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000441> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.008018> [hit #63] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000457> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.007380> [hit #64] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000412> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002429> [hit #65] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000506> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.020887> [hit #66] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.022780> [hit #66] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000987> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.003085> [hit #67] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002022> [hit #68] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.003930> [hit #68]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.027102> [hit #68] response: 500 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000514> request: GET /css/error.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.004742> [hit #69] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.001000> request: GET / from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.011792> [hit #70] trying to match `/' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.014401> [hit #70]   --> got 1 in C:/Perl64/site/lib/Dancer/Route.pm l. 79
+[2288]  core @0.025304> [hit #70] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000577> request: GET /css/std.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.004069> [hit #71] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000523> request: GET /css/table.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.002728> [hit #72] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.001180> request: GET /css/druck.css from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.006768> [hit #73] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000466> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.002733> [hit #74] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.008246> [hit #74] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.000453> request: GET /js/table.js from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288] debug @0.006737> [hit #75] trying to match `/js/table.js' against /^\/$/ in C:/Perl64/site/lib/Dancer/Route.pm l. 73
+[2288]  core @0.008633> [hit #75] response: 404 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
+[2288]  core @0.005883> request: GET /images/swd_listenkopf_erste_seite.gif from 127.0.0.1 in C:/Perl64/site/lib/Dancer/Handler.pm l. 44
+[2288]  core @0.008335> [hit #76] response: 200 in C:/Perl64/site/lib/Dancer/Handler.pm l. 102
